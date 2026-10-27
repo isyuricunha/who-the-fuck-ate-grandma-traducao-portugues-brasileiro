@@ -33,5 +33,24 @@ Decisões da tradução manual. Cada equivalente vale no contexto indicado; não
 | Spiderman | Homem-Aranha | Nome consagrado em PT-BR, 222; não Homem de Ferro ou outro herói. |
 | guinea pig | porquinho-da-índia | 238; não confundir com hamster nos outros enigmas. |
 | Jose | José | Nome errado dito de propósito ao falar com Henri, 308–309. Não corrigir a piada para Henri. |
+| Music can sometimes be the last barrier before falling into madness. | Às vezes, a música é a última barreira antes da loucura. | Refrão narrativo das entradas 495/602/650; manter a mesma formulação. |
+| harmonica | gaita | Instrumento entregue pelo vovô, 493. |
+| yellow zucchini and cheese soup | sopa de abobrinha amarela com queijo | Ingredientes e cor são pistas do enigma; 548/605/629/659/699/845. |
+| flint | sílex | Pedra para produzir faíscas, 715/720/733; não um isqueiro. |
+| mallet | malho | Ferramenta do enigma com manteiga e amendoim, 765/1232; manter nos rótulos e dicas posteriores. |
+| peanut butter (do enigma) | manteiga de amendoim | Resultado literal da combinação de manteiga com amendoim no malho; 1232. Preservar AMENDOIM em destaque. |
+| Madagascan cockroach porridge | mingau de baratas de Madagascar | Cheiro que derruba Henri e pista de alergia, 856/928/930. |
+| Grumpy Funky Night | Grumpy Funky Night | Título da música usada no enigma de Roger; 1079/1464. Não traduzir como descrição do humor do personagem. |
+| Walkman | Walkman | Nome do aparelho, mantido com inicial maiúscula. |
+| Baywatch | S.O.S. Malibu | Referência televisiva da piada com respiração boca a boca, 1243; Pamela Anderson e Mitch Buchannon preservados. |
+| rifle (de Bertrand) | espingarda | Arma apontada para René, 1260/1481/1503. Manter consistente nas falas e nos próximos rótulos. |
+| deer | cervo | Cabeça decorativa deliberadamente inútil, 411/413/974–976/1491. |
+| pillow (Panier) | almofada | Mesmo objeto do cesto, 466/1586/1707; manter apesar da alternância entre coussin e oreiller no francês. |
+| Next generation console | console de nova geração | Rótulo do videogame, 467/1518; maiúscula inicial no nome do objeto. |
+| Talkie / Walkie | Talkie / Walkie | Nomes dos dois aparelhos, confirmados em 2884–2885/2966/2983/3200/3216; não fundir os dois itens. A inversão cômica dos nomes permanece em 894–895. Walkie-talkie pode designar o tipo de aparelho em prosa. |
+| Banana Picker | apanhador de bananas | Ferramenta de alcançar objetos, 1901/3837; manter nos nomes e dicas posteriores. |
+| Grandma's necklace / medallion | medalhão da vovó | O mesmo objeto é identificado como medalhão em 1836/1952/2919/3211/3388, inclusive com números para o cofre. Entrada 1740 usa necklace; a referência francesa confirma médaillon. |
+| Cookies Folies | Cookies Folies | Nome da propaganda repetida pelo papagaio; cookies mantém o jogo com a marca em 1786–1792. |
+| Grumpy Radio | Grumpy Radio | Nome próprio da estação, 1235/1237. O adjetivo grumpy em prosa é mal-humorado; não confundir com o nome da rádio. |
 
 Pikwik, Chirac, Toby, Henri, Bertrand, Josiane, Gustave e Roger são mantidos. Registrar novos termos apenas após leitura de seu contexto.
