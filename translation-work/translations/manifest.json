@@ -1,5 +1,5 @@
 {
-  "batch_size": 500,
+  "batch_size": 250,
   "batches": [
     "batch-0001.jsonl",
     "batch-0002.jsonl",
@@ -8,7 +8,15 @@
     "batch-0005.jsonl",
     "batch-0006.jsonl",
     "batch-0007.jsonl",
-    "batch-0008.jsonl"
+    "batch-0008.jsonl",
+    "batch-0009.jsonl",
+    "batch-0010.jsonl",
+    "batch-0011.jsonl",
+    "batch-0012.jsonl",
+    "batch-0013.jsonl",
+    "batch-0014.jsonl",
+    "batch-0015.jsonl",
+    "batch-0016.jsonl"
   ],
   "catalog_sha256": "ee61d8ad59c11d1fcd5f667aefd7f7f86122771bb77d7868e06d82e9f1da6c2a",
   "deployment_path": "Who the fuck ate grandma_Data/resources.assets",

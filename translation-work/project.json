@@ -1,15 +1,20 @@
 {
-  "schema": 1,
+  "batch_size": 250,
   "game": "Who The Fuck Ate Grandma ?",
-  "steam_appid": 1756100,
-  "repository": "isyuricunha/who-the-fuck-ate-grandma-traducao-portugues-brasileiro",
-  "batch_size": 500,
-  "replacement_language": "English",
-  "retention": {"count": 10, "bytes": 536870912},
-  "game_candidates": ["D:/Games/Who The Fuck Ate Grandma"],
+  "game_candidates": [
+    "D:/Games/Who The Fuck Ate Grandma"
+  ],
   "redistribution": {
     "authorized": false,
     "evidence": "",
     "reason": "resources.assets includes proprietary game media; redistribution permission has not been supplied"
-  }
+  },
+  "replacement_language": "English",
+  "repository": "isyuricunha/who-the-fuck-ate-grandma-traducao-portugues-brasileiro",
+  "retention": {
+    "bytes": 536870912,
+    "count": 10
+  },
+  "schema": 1,
+  "steam_appid": 1756100
 }

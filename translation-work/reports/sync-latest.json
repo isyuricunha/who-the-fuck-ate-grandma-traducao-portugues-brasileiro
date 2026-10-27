@@ -1,6 +1,7 @@
 {
   "affected_batches": [
-    "batch-0008.jsonl"
+    "batch-0015.jsonl",
+    "batch-0016.jsonl"
   ],
   "counts": {
     "modified": 84,
@@ -8,7 +9,7 @@
   },
   "entries": [
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Don't be insulting",
@@ -72,7 +73,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "you saw a rat one night in your kitchen, and you consider him like a god",
@@ -136,7 +137,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "right ?",
@@ -200,7 +201,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "almost...",
@@ -264,7 +265,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "considering what it did to my 3 brothers...",
@@ -328,7 +329,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "I've done enough stupid things like this",
@@ -392,7 +393,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "He's dead",
@@ -456,7 +457,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "My hand is broken",
@@ -520,7 +521,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "there's nothing more inside",
@@ -584,7 +585,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "What are you talking about ?",
@@ -648,7 +649,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "as René is a friend of mosquitoes",
@@ -719,7 +720,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "...",
@@ -783,7 +784,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "but he's more like a divinity",
@@ -847,7 +848,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "nothing, I'm sorry",
@@ -911,7 +912,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "sorry... you called me a Rascal ?",
@@ -975,7 +976,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "first of all, I need to find something that looks like a rat",
@@ -1039,7 +1040,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "first of all, I need to find something that looks like a rat",
@@ -1103,7 +1104,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "my hamster is already cobalt blue...",
@@ -1167,7 +1168,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "I can eat absolutely everything on earth except Madagascan cockroach porridge... It makes me sick",
@@ -1231,7 +1232,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "I'll let him go recover from his emotions",
@@ -1295,7 +1296,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Interesting idea, but why ?",
@@ -1359,7 +1360,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Of course ! You're my brother after all, if you need money I'm here for you !",
@@ -1423,7 +1424,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "I'm glad you were here...",
@@ -1494,7 +1495,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "OR.... !",
@@ -1565,7 +1566,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "He looks like a rat",
@@ -1629,7 +1630,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "I need to color my hamster...",
@@ -1693,7 +1694,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Slurp",
@@ -1757,7 +1758,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Unofrtunately, it doesn't look like a perfect Pikiwik right now",
@@ -1821,7 +1822,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "as you want",
@@ -1885,7 +1886,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "He's to busy imitating the police",
@@ -1949,7 +1950,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "we have to respect Grandma's wishes",
@@ -2013,7 +2014,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "what an entry !",
@@ -2077,7 +2078,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "we're getting married !",
@@ -2141,7 +2142,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Grandma's necklace, I'm sure it'll help me !",
@@ -2205,7 +2206,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Il avait donc un projet avec ce puit... il faut que j'en découvre davantage",
@@ -2269,7 +2270,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "GOT IT ! ",
@@ -2333,7 +2334,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "errr....",
@@ -2397,7 +2398,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "je sais que c'est dur... mais il faut savoir couper le cordon...",
@@ -2461,7 +2462,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "mais que fout ce perroquet par terre ?",
@@ -2525,7 +2526,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "euh... c'est probablement le vent...",
@@ -2589,7 +2590,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "definitely",
@@ -2653,7 +2654,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "DE QUEL CORDON TU PARLES ?",
@@ -2717,7 +2718,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "si tu ne me dis pas la vérité tout de suite je t'égorge",
@@ -2781,7 +2782,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "qu'est ce que tu racontes... il a 11 ans",
@@ -2845,7 +2846,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "I'll need a coat with larger pockets",
@@ -2909,7 +2910,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "I don't need to risk poliomyelitis anymore",
@@ -2973,7 +2974,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "what ?",
@@ -3037,7 +3038,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "PUISQUE JE TE DIS QUE...",
@@ -3101,7 +3102,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "give me your paypal, I want to thank you more",
@@ -3165,7 +3166,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Haha ! Tout va très bien je te jure !",
@@ -3229,7 +3230,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Congratulations, you did an amazing job !",
@@ -3293,7 +3294,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Ready for the 'BOOM'",
@@ -3357,7 +3358,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "...je ne suis pas stressé tout va bien",
@@ -3421,7 +3422,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Gustave is trying to revive Josiane",
@@ -3485,7 +3486,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Tout va bien je t'assure ! ",
@@ -3549,7 +3550,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Il contient tout mon équipement de spéléologue",
@@ -3613,7 +3614,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "thank you it goes straight to my heart !",
@@ -3677,7 +3678,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "I cannot fish something that is not in the water",
@@ -3741,7 +3742,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "According to the Grumpy laws of the human body that's impossible",
@@ -3805,7 +3806,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Je n'ai plus besoin de ce déboucheur maintenant que j'ai pollué toutes les canalisations",
@@ -3869,7 +3870,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "What a wonderful idea !",
@@ -3933,7 +3934,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "First, I need to know what I'm looking for",
@@ -3997,7 +3998,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "it reminds me of my teenage head full of pimples\r",
@@ -4061,7 +4062,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0015.jsonl",
       "classification": "modified",
       "current": {
         "EN": "it has a carcinogenic chemical smell which I particularly like",
@@ -4125,7 +4126,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "It smells the sweet odor of chemicals",
@@ -4189,7 +4190,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "I think it's me !",
@@ -4253,7 +4254,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "when I was young, I created the \"Free-ship club\"",
@@ -4317,7 +4318,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "I don't want to make it worse",
@@ -4381,7 +4382,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "I'll let her recovering",
@@ -4445,7 +4446,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Grandma's papers, secrets are going to be revealed !",
@@ -4509,7 +4510,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "There is a phone card inside ! I was waiting for it !",
@@ -4573,7 +4574,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "I should open it, I feel like I can get another useful item for my pocket from it",
@@ -4637,7 +4638,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "except this one of a fox...",
@@ -4701,7 +4702,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "there is just a yellow one which is not destroyed",
@@ -4765,7 +4766,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "could be useful !",
@@ -4829,7 +4830,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "This hamster looks amazing now !",
@@ -4893,7 +4894,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "That's a bunch of old ugly socks",
@@ -4957,7 +4958,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "I got a talkie",
@@ -5021,7 +5022,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "The socks that remain are all ugly",
@@ -5085,7 +5086,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Let's dress !",
@@ -5149,7 +5150,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "barbecue sauce?",
@@ -5213,7 +5214,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "let's see the end",
@@ -5277,7 +5278,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "Hopefully I'm not stuck in this well",
@@ -5341,7 +5342,7 @@
       }
     },
     {
-      "batch": "batch-0008.jsonl",
+      "batch": "batch-0016.jsonl",
       "classification": "modified",
       "current": {
         "EN": "that's a diary",

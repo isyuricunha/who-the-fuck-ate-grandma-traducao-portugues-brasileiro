@@ -1,0 +1,10 @@
+{
+  "batches": 16,
+  "new_size": 250,
+  "old_size": 500,
+  "preserved_records_sha256": "a685135ba4dd45c336670c55beff04a56742aa77eaccb619e0bce4e5ff99770f",
+  "reason": "User requested manual translation in batches of 250; source identities and all existing PTBR preserved",
+  "records": 3770,
+  "schema": 1,
+  "source_generation": "9e048d3adc347d303b1e3753a481da8c3863aac987771f5689be93f0d0665df8"
+}
