@@ -1,0 +1,41 @@
+{
+  "batch_size": 500,
+  "batches": [
+    "batch-0001.jsonl",
+    "batch-0002.jsonl",
+    "batch-0003.jsonl",
+    "batch-0004.jsonl",
+    "batch-0005.jsonl",
+    "batch-0006.jsonl",
+    "batch-0007.jsonl",
+    "batch-0008.jsonl"
+  ],
+  "catalog_sha256": "ee61d8ad59c11d1fcd5f667aefd7f7f86122771bb77d7868e06d82e9f1da6c2a",
+  "deployment_path": "Who the fuck ate grandma_Data/resources.assets",
+  "game": "Who The Fuck Ate Grandma ?",
+  "generation": "9e048d3adc347d303b1e3753a481da8c3863aac987771f5689be93f0d0665df8",
+  "record_count": 3770,
+  "schema": 1,
+  "shape_sha256": "20b228fabd47587a8a17d969d8b3169127d3d6de584c7761ae2fe2f0413b1c16",
+  "source_hashes": {
+    "Who the fuck ate grandma_Data/level0": "c5bb9d409aadd4b83fcde602c0d0c094807f02e76b3d1335358a07084bb28db5",
+    "Who the fuck ate grandma_Data/level1": "158e07eb195ee802cac3450e1bb3d6daba0eab21df9d0b8fc4f117663eaac9ba",
+    "Who the fuck ate grandma_Data/level10": "f241ab757e3e3cce08a631a74ad0fc2b28c6b1b968e3a07d3b6ab5787bac2682",
+    "Who the fuck ate grandma_Data/level11": "385a7c9de3d7cf2dbb1ed96e8dd9ae287c3561bd27beca36aa2e6ac06daef099",
+    "Who the fuck ate grandma_Data/level12": "715ff00067f2ba50825f701d45db1a7d8350816d5ae7297b71de8bd34e421260",
+    "Who the fuck ate grandma_Data/level13": "9b9592fe3ad5e3353c8d6f89e53ec16a912cdadb4812f8cd4bfaa2c9415da10f",
+    "Who the fuck ate grandma_Data/level14": "0bca824833ef00fe30c5deb1c942dd60318d79e2b55da44beebed775c3ce4975",
+    "Who the fuck ate grandma_Data/level15": "d1bc4861609c30fda6219996d8e96d3db31359248d20765eefc42c89cd20beb0",
+    "Who the fuck ate grandma_Data/level2": "7319d253c974d1df964a44790c32577f1811ad5dd3e2b32fa71a42457391f94a",
+    "Who the fuck ate grandma_Data/level3": "d62cd3e1cd71fafb36f1c1ed96ab557c4635ae06522027522fe58ea2a84dd5cc",
+    "Who the fuck ate grandma_Data/level4": "866401f70d440a188a05257659de8500fc305a97efe8335b7c83c86250183020",
+    "Who the fuck ate grandma_Data/level5": "e84ee7098a2725ff193e46fca506aea609105253bd6f56f53c3b07ce0d3c7ae6",
+    "Who the fuck ate grandma_Data/level6": "531b3db9ca23ab1cdfd44052c70e96f34a1a8aeeba7bbfb194fd56aaa839ca55",
+    "Who the fuck ate grandma_Data/level7": "7fa8f59cfd0fb0ddfbb359fae7485d49986d44b9527b56dee53cfe087ef305ad",
+    "Who the fuck ate grandma_Data/level8": "a909427f9d4c4236a67336d04cb7dbc2c5a248db4ee1bd460cf5d041797eae95",
+    "Who the fuck ate grandma_Data/level9": "c145d68f143306c13fde978e5a70aa895167c6a17131e141914ae01ab7b8e5dc",
+    "Who the fuck ate grandma_Data/resources.assets": "17599bf6650a62f79a120424ef5c0933cfdf05107c3b32e6946dd007377347d1"
+  },
+  "source_sha256": "c97035fe592f5cef08d234ea16e5f2354321c9c02fb83441174309bc0156449f",
+  "unindexed_speech_count": 84
+}

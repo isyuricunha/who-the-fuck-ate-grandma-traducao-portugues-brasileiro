@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "kind": "native-reconstruction-proof-not-a-translation",
+  "persisted_PTBR": false,
+  "source_records": 3770,
+  "new_speech_links": 84,
+  "output_paths": [
+    "Who the fuck ate grandma_Data/level10",
+    "Who the fuck ate grandma_Data/level11",
+    "Who the fuck ate grandma_Data/level12",
+    "Who the fuck ate grandma_Data/level13",
+    "Who the fuck ate grandma_Data/level2",
+    "Who the fuck ate grandma_Data/level4",
+    "Who the fuck ate grandma_Data/level5",
+    "Who the fuck ate grandma_Data/level6",
+    "Who the fuck ate grandma_Data/level7",
+    "Who the fuck ate grandma_Data/level8",
+    "Who the fuck ate grandma_Data/level9",
+    "Who the fuck ate grandma_Data/resources.assets"
+  ],
+  "output_file_count": 12,
+  "all_input_bytes_preserved_on_disk": true,
+  "french_preserved": true,
+  "active_languages": [
+    "Português (Brasil)",
+    "Français"
+  ],
+  "game_runtime_tested": false,
+  "original_installation_hashes_match_EN": true
+}

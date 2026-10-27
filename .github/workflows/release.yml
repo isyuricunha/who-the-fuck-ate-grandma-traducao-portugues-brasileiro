@@ -1,0 +1,29 @@
+name: Publicar tradução completa
+on:
+  push:
+    branches: [main]
+    paths: ['PTBR/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ptbr-release
+  cancel-in-progress: false
+jobs:
+  release:
+    if: github.repository == 'isyuricunha/who-the-fuck-ate-grandma-traducao-portugues-brasileiro' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.14'
+      - name: Validar pacote sem reconstruir arquivos nativos
+        run: python translation-work/toolkit.py verify-output
+      - name: Versionar, empacotar e publicar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python translation-work/release.py

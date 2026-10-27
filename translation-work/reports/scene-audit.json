@@ -1,0 +1,867 @@
+{
+  "schema": 1,
+  "scope": "Heuristic ASCII sentence candidates absent from exact SpeechManager EN; not a coverage count. No automatic text matching or translation reuse.",
+  "sources": {
+    "level0": "c5bb9d409aadd4b83fcde602c0d0c094807f02e76b3d1335358a07084bb28db5",
+    "level1": "158e07eb195ee802cac3450e1bb3d6daba0eab21df9d0b8fc4f117663eaac9ba",
+    "level10": "f241ab757e3e3cce08a631a74ad0fc2b28c6b1b968e3a07d3b6ab5787bac2682",
+    "level11": "385a7c9de3d7cf2dbb1ed96e8dd9ae287c3561bd27beca36aa2e6ac06daef099",
+    "level12": "715ff00067f2ba50825f701d45db1a7d8350816d5ae7297b71de8bd34e421260",
+    "level13": "9b9592fe3ad5e3353c8d6f89e53ec16a912cdadb4812f8cd4bfaa2c9415da10f",
+    "level14": "0bca824833ef00fe30c5deb1c942dd60318d79e2b55da44beebed775c3ce4975",
+    "level15": "d1bc4861609c30fda6219996d8e96d3db31359248d20765eefc42c89cd20beb0",
+    "level2": "7319d253c974d1df964a44790c32577f1811ad5dd3e2b32fa71a42457391f94a",
+    "level3": "d62cd3e1cd71fafb36f1c1ed96ab557c4635ae06522027522fe58ea2a84dd5cc",
+    "level4": "866401f70d440a188a05257659de8500fc305a97efe8335b7c83c86250183020",
+    "level5": "e84ee7098a2725ff193e46fca506aea609105253bd6f56f53c3b07ce0d3c7ae6",
+    "level6": "531b3db9ca23ab1cdfd44052c70e96f34a1a8aeeba7bbfb194fd56aaa839ca55",
+    "level7": "7fa8f59cfd0fb0ddfbb359fae7485d49986d44b9527b56dee53cfe087ef305ad",
+    "level8": "a909427f9d4c4236a67336d04cb7dbc2c5a248db4ee1bd460cf5d041797eae95",
+    "level9": "c145d68f143306c13fde978e5a70aa895167c6a17131e141914ae01ab7b8e5dc"
+  },
+  "candidates": [
+    {
+      "file": "level10",
+      "offset": 29796,
+      "text": "Billy the glob: Look at",
+      "object_id": 90,
+      "class_id": 1,
+      "script_index": -1,
+      "status": "technical-object-name"
+    },
+    {
+      "file": "level10",
+      "offset": 30628,
+      "text": "Billy the glob: Use",
+      "object_id": 102,
+      "class_id": 1,
+      "script_index": -1,
+      "status": "technical-object-name"
+    },
+    {
+      "file": "level10",
+      "offset": 31636,
+      "text": "Billy the glob: Unhandled inventory",
+      "object_id": 116,
+      "class_id": 1,
+      "script_index": -1,
+      "status": "technical-object-name"
+    },
+    {
+      "file": "level11",
+      "offset": 98920,
+      "text": "it has a carcinogenic chemical smell which I particularly like",
+      "object_id": 471,
+      "class_id": 114,
+      "script_index": 53,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          316,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level11#PathID:471:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level11",
+      "offset": 101520,
+      "text": "It smells the sweet odor of chemicals",
+      "object_id": 480,
+      "class_id": 114,
+      "script_index": 53,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          583,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level11#PathID:480:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level11",
+      "offset": 114672,
+      "text": "I think it's me !",
+      "object_id": 525,
+      "class_id": 114,
+      "script_index": 53,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          506,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level11#PathID:525:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level11",
+      "offset": 124000,
+      "text": "when I was young, I created the \"Free-ship club\"",
+      "object_id": 560,
+      "class_id": 114,
+      "script_index": 53,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          542,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level11#PathID:560:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level11",
+      "offset": 134864,
+      "text": "I don't want to make it worse",
+      "object_id": 599,
+      "class_id": 114,
+      "script_index": 53,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          407,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level11#PathID:599:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level11",
+      "offset": 151872,
+      "text": "I'll let her recovering",
+      "object_id": 657,
+      "class_id": 114,
+      "script_index": 53,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          499,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level11#PathID:657:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level12",
+      "offset": 93472,
+      "text": "There is a phone card inside ! I was waiting for it !",
+      "object_id": 462,
+      "class_id": 114,
+      "script_index": 55,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          613,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level12#PathID:462:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level12",
+      "offset": 102208,
+      "text": "I should open it, I feel like I can get another useful item for my pocket from it",
+      "object_id": 493,
+      "class_id": 114,
+      "script_index": 55,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          704,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level12#PathID:493:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level12",
+      "offset": 143856,
+      "text": "I got a talkie",
+      "object_id": 640,
+      "class_id": 114,
+      "script_index": 55,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          638,
+          114
+        ],
+        [
+          795,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level12#PathID:640:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level12",
+      "offset": 172400,
+      "text": "The socks that remain are all ugly",
+      "object_id": 741,
+      "class_id": 114,
+      "script_index": 55,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          457,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level12#PathID:741:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level13",
+      "offset": 25444,
+      "text": "Writings on the rock: Look at",
+      "object_id": 61,
+      "class_id": 1,
+      "script_index": -1,
+      "status": "technical-object-name"
+    },
+    {
+      "file": "level13",
+      "offset": 26436,
+      "text": "Writings on the rock: Unhandled inventory",
+      "object_id": 75,
+      "class_id": 1,
+      "script_index": -1,
+      "status": "technical-object-name"
+    },
+    {
+      "file": "level13",
+      "offset": 27204,
+      "text": "Writings on the rock: Use",
+      "object_id": 86,
+      "class_id": 1,
+      "script_index": -1,
+      "status": "technical-object-name"
+    },
+    {
+      "file": "level13",
+      "offset": 92488,
+      "text": "let's see the end",
+      "object_id": 399,
+      "class_id": 114,
+      "script_index": 53,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          314,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level13#PathID:399:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level13",
+      "offset": 141056,
+      "text": "Hopefully I'm not stuck in this well",
+      "object_id": 563,
+      "class_id": 114,
+      "script_index": 53,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          393,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level13#PathID:563:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level2",
+      "offset": 102832,
+      "text": "Don't be insulting",
+      "object_id": 608,
+      "class_id": 114,
+      "script_index": 54,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          864,
+          114
+        ],
+        [
+          925,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level2#PathID:608:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level2",
+      "offset": 184272,
+      "text": "you saw a rat one night in your kitchen, and you consider him like a god",
+      "object_id": 890,
+      "class_id": 114,
+      "script_index": 54,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          1132,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level2#PathID:890:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level4",
+      "offset": 36052,
+      "text": "Strange hollow in the rock: Unhandled inventory",
+      "object_id": 89,
+      "class_id": 1,
+      "script_index": -1,
+      "status": "technical-object-name"
+    },
+    {
+      "file": "level4",
+      "offset": 38964,
+      "text": "Strange hollow in the rock: Use",
+      "object_id": 130,
+      "class_id": 1,
+      "script_index": -1,
+      "status": "technical-object-name"
+    },
+    {
+      "file": "level4",
+      "offset": 99984,
+      "text": "I've done enough stupid things like this",
+      "object_id": 497,
+      "class_id": 114,
+      "script_index": 61,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          676,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level4#PathID:497:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level5",
+      "offset": 164512,
+      "text": "What are you talking about ?",
+      "object_id": 879,
+      "class_id": 114,
+      "script_index": 60,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          2110,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level5#PathID:879:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level5",
+      "offset": 316880,
+      "text": "nothing, I'm sorry",
+      "object_id": 1400,
+      "class_id": 114,
+      "script_index": 60,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          1998,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level5#PathID:1400:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level5",
+      "offset": 350752,
+      "text": "sorry... you called me a Rascal ?",
+      "object_id": 1511,
+      "class_id": 114,
+      "script_index": 60,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          1327,
+          114
+        ],
+        [
+          1846,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level5#PathID:1511:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level5",
+      "offset": 351224,
+      "text": "first of all, I need to find something that looks like a rat",
+      "object_id": 1513,
+      "class_id": 114,
+      "script_index": 60,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          1504,
+          114
+        ],
+        [
+          1548,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level5#PathID:1513:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level5",
+      "offset": 371936,
+      "text": "first of all, I need to find something that looks like a rat",
+      "object_id": 1584,
+      "class_id": 114,
+      "script_index": 60,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          874,
+          114
+        ],
+        [
+          1875,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level5#PathID:1584:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level5",
+      "offset": 396496,
+      "text": "I can eat absolutely everything on earth except Madagascan cockroach porridge... It makes me sick",
+      "object_id": 1665,
+      "class_id": 114,
+      "script_index": 60,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          1751,
+          114
+        ],
+        [
+          1909,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level5#PathID:1665:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level5",
+      "offset": 407712,
+      "text": "I'll let him go recover from his emotions",
+      "object_id": 1703,
+      "class_id": 114,
+      "script_index": 60,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          1146,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level5#PathID:1703:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level5",
+      "offset": 446320,
+      "text": "Of course ! You're my brother after all, if you need money I'm here for you !",
+      "object_id": 1844,
+      "class_id": 114,
+      "script_index": 60,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          1953,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level5#PathID:1844:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level5",
+      "offset": 549328,
+      "text": "I need to color my hamster...",
+      "object_id": 2194,
+      "class_id": 114,
+      "script_index": 60,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          1031,
+          114
+        ],
+        [
+          1262,
+          114
+        ],
+        [
+          2458,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level5#PathID:2194:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level5",
+      "offset": 623056,
+      "text": "He's to busy imitating the police",
+      "object_id": 2441,
+      "class_id": 114,
+      "script_index": 60,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          1241,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level5#PathID:2441:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level7",
+      "offset": 42340,
+      "text": "Jerry the parrot: Use",
+      "object_id": 87,
+      "class_id": 1,
+      "script_index": -1,
+      "status": "technical-object-name"
+    },
+    {
+      "file": "level7",
+      "offset": 43220,
+      "text": "Jerry the parrot: Banana Picker",
+      "object_id": 98,
+      "class_id": 1,
+      "script_index": -1,
+      "status": "technical-object-name"
+    },
+    {
+      "file": "level7",
+      "offset": 44388,
+      "text": "Jerry the parrot: Talk to",
+      "object_id": 115,
+      "class_id": 1,
+      "script_index": -1,
+      "status": "technical-object-name"
+    },
+    {
+      "file": "level7",
+      "offset": 45524,
+      "text": "Jerry the parrot: Coat",
+      "object_id": 132,
+      "class_id": 1,
+      "script_index": -1,
+      "status": "technical-object-name"
+    },
+    {
+      "file": "level7",
+      "offset": 47636,
+      "text": "Jerry the parrot: Unhandled inventory",
+      "object_id": 162,
+      "class_id": 1,
+      "script_index": -1,
+      "status": "technical-object-name"
+    },
+    {
+      "file": "level7",
+      "offset": 84528,
+      "text": "Grandma's necklace, I'm sure it'll help me !",
+      "object_id": 452,
+      "class_id": 114,
+      "script_index": 62,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          605,
+          114
+        ],
+        [
+          861,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level7#PathID:452:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level7",
+      "offset": 251416,
+      "text": "I'll need a coat with larger pockets",
+      "object_id": 1060,
+      "class_id": 114,
+      "script_index": 62,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          1082,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level7#PathID:1060:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level7",
+      "offset": 252000,
+      "text": "I don't need to risk poliomyelitis anymore",
+      "object_id": 1062,
+      "class_id": 114,
+      "script_index": 62,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          767,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level7#PathID:1062:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level8",
+      "offset": 127328,
+      "text": "give me your paypal, I want to thank you more",
+      "object_id": 631,
+      "class_id": 114,
+      "script_index": 57,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          814,
+          114
+        ],
+        [
+          908,
+          114
+        ],
+        [
+          1187,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level8#PathID:631:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level8",
+      "offset": 173488,
+      "text": "Congratulations, you did an amazing job !",
+      "object_id": 794,
+      "class_id": 114,
+      "script_index": 57,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          1336,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level8#PathID:794:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level8",
+      "offset": 178832,
+      "text": "Ready for the 'BOOM'",
+      "object_id": 813,
+      "class_id": 114,
+      "script_index": 57,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          1297,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level8#PathID:813:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level8",
+      "offset": 286624,
+      "text": "thank you it goes straight to my heart !",
+      "object_id": 1187,
+      "class_id": 114,
+      "script_index": 57,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          794,
+          114
+        ],
+        [
+          1353,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level8#PathID:1187:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level8",
+      "offset": 309152,
+      "text": "I cannot fish something that is not in the water",
+      "object_id": 1269,
+      "class_id": 114,
+      "script_index": 57,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          861,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level8#PathID:1269:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level8",
+      "offset": 355744,
+      "text": "According to the Grumpy laws of the human body that's impossible",
+      "object_id": 1431,
+      "class_id": 114,
+      "script_index": 57,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          976,
+          114
+        ],
+        [
+          1311,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level8#PathID:1431:ActionSpeech.messageText"
+      }
+    },
+    {
+      "file": "level9",
+      "offset": 180448,
+      "text": "First, I need to know what I'm looking for",
+      "object_id": 840,
+      "class_id": 114,
+      "script_index": 51,
+      "status": "requires-native-id-review",
+      "possible_incoming_pointer_objects": [
+        [
+          748,
+          114
+        ]
+      ],
+      "resolution": {
+        "status": "included-as-native-object-field",
+        "record_id": "Who the fuck ate grandma_Data/level9#PathID:840:ActionSpeech.messageText"
+      }
+    }
+  ],
+  "structural_audit": {
+    "summary": {
+      "actions": 2642,
+      "unregistered_nonempty": 84,
+      "unregistered_empty": 1
+    },
+    "catalog_records": 3770,
+    "status": "unindexed messages mapped; technical object names preserved"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "engine": "6000.2.9f1",
+  "format_version": 22,
+  "speech_prefix_b64": "AAAAAAAAAAAAAAAAAQAAAAEAAACAAAAAAAAAAA0AAABTcGVlY2hNYW5hZ2VyAAAAAAAAAAAAAAAAAEhCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAADNzMw+CtejPQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAFNwZWVjaAAABwAAAExpcHN5bmMAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAPwEAAAA=",
+  "speech_suffix_b64": "AAAAAAAAAAAAAAAAAAAAAAIAAAAHAAAARW5nbGlzaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAABGcmFuw6dhaXMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD//////",
+  "language_menu_objects": [
+    1827,
+    2544
+  ],
+  "managed_path": "Who the fuck ate grandma_Data/resources.assets",
+  "context_evidence": {
+    "Josiane": {
+      "line_id": 229,
+      "EN": "She has the privilege of having Josiane as her first name.",
+      "gender": "female",
+      "role": "referent explicitly identified as Josiane; linked to SpeechLine.owner Josiane",
+      "certainty": "source-explicit"
+    },
+    "Bertrand": {
+      "line_id": 95,
+      "EN": "I think I might be your brother.",
+      "gender": "male",
+      "role": "speaker self-identifies as brother",
+      "certainty": "source-explicit"
+    }
+  },
+  "scene_resources": [
+    "Who the fuck ate grandma_Data/level0",
+    "Who the fuck ate grandma_Data/level1",
+    "Who the fuck ate grandma_Data/level2",
+    "Who the fuck ate grandma_Data/level3",
+    "Who the fuck ate grandma_Data/level4",
+    "Who the fuck ate grandma_Data/level5",
+    "Who the fuck ate grandma_Data/level6",
+    "Who the fuck ate grandma_Data/level7",
+    "Who the fuck ate grandma_Data/level8",
+    "Who the fuck ate grandma_Data/level9",
+    "Who the fuck ate grandma_Data/level10",
+    "Who the fuck ate grandma_Data/level11",
+    "Who the fuck ate grandma_Data/level12",
+    "Who the fuck ate grandma_Data/level13",
+    "Who the fuck ate grandma_Data/level14",
+    "Who the fuck ate grandma_Data/level15"
+  ]
+}
