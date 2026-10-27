@@ -6,6 +6,6 @@
   "target": "Ubuntu 24.04 ARM64",
   "toolchain": {
     "path": "translation-work/toolchain.json",
-    "sha256": "2778866da75e2086dc4689deac6b137de0b1a73cf56b482ea5fcc4b433156b94"
+    "sha256": "78543a23b8d880aa8a7555f1e371c518f61a67cfedf716b8fa7b5f4e7be318ad"
   }
 }

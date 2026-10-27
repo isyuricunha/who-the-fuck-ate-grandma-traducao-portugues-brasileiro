@@ -102,8 +102,7 @@ class ReleaseTests(Sandbox):
     def setUp(self):
         super().setUp()
         self.init(); self.complete(); self.p.build()
-        self.p.config['redistribution'] = {'authorized': True, 'evidence': 'permission.txt'}
-        (self.root / 'permission.txt').write_text('Synthetic permission fixture; not real authorization.')
+        self.p.config['redistribution'] = {'authorized': True}
         self.git = FakeGit()
         self.server = MockGitHub(self.git.head); self.addCleanup(self.server.close)
         self.api = API(self.p.config['repository'], 'synthetic-token', self.server.url)

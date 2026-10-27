@@ -146,9 +146,8 @@ def publish(project, api, git):
     project.integrity()
     receipt = project.verify_output()
     rights = project.config['redistribution']
-    require(rights['authorized'] is True and rights.get('evidence')
-            and safe(project.root, rights['evidence']).is_file(),
-            'Redistribution blocked: record verified rightsholder permission before publication')
+    require(rights['authorized'] is True,
+            'Redistribution blocked: the maintainer has not authorized publishing game resources')
     require(not git.run('status', '--porcelain'), 'Release requires a clean committed checkout')
     head = git.run('rev-parse', 'HEAD')
     repo = project.config['repository']

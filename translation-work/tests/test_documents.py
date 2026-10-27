@@ -63,7 +63,10 @@ class DocumentsTests(unittest.TestCase):
 
     def test_workflow_output_only_trigger_and_no_native_rebuild(self):
         workflow = (ROOT / '.github/workflows/release.yml').read_text('utf-8')
-        self.assertIn("paths: ['PTBR/**']", workflow)
+        self.assertIn("- 'PTBR/**'", workflow)
+        self.assertIn("- 'translation-work/release.py'", workflow)
+        self.assertIn("- 'translation-work/project.json'", workflow)
+        self.assertIn("- 'translation-work/toolchain.json'", workflow)
         self.assertIn('verify-output', workflow)
         self.assertIn('release.py', workflow)
         self.assertNotIn('toolkit.py build', workflow)
