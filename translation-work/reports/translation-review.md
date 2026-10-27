@@ -70,6 +70,40 @@ Tradução manual iniciada em 27/10/2026 a pedido do mantenedor, com lotes de 25
 - Medalhão da vovó em 1740 foi conferido contra 1836/1952/2919/3211/3388: trata-se do mesmo objeto chamado necklace nessa linha inglesa. O termo foi alinhado aos rótulos e à pista do código do cofre.
 - Na comparação entre os sete lotes, foram alinhadas as formulações repetidas sobre batatas, violência, mistura radioativa, olhos de Bertrand, intolerância a amendoim e simplesmente pegar um item. A revisão altera somente PTBR.
 
+## Lote 0008
+
+- 250 entradas traduzidas, cobrindo Toby, a captura do papagaio, o medalhão e o carrinho no interior de Chirac. As opções do jardim repetem as falas correspondentes; os fragmentos mantêm seus IDs e interrupções.
+- 1774–1776 retomam o cordão umbilical com o cordão dos balões. Aquiles e a Guerra de Troia permanecem como exemplo malsucedido de coragem. Javier Sotomayor é mantido na comparação de alcance em 1758, sem impor que o personagem alcance algo com os pés imóveis.
+- A cartinha brilhante do T-Rex mantém o velociraptor, o engano com estegossauro e a diferença entre cocô preto e rosa. Toby diz cocô; o protagonista usa cagando e explode em 1725, sem suavizar a ameaça de fazê-lo engolir a coleção.
+- A dica de usar o faro em 1917 foi preservada. Radiografia em 1891 foi confirmada contra a descrição do item e seu uso em 3197/3357/3366/3707; não é o rádio de ouvir música.
+- Os números 11 anos, 99 cartas, 560 caixas e 472 bundas permanecem. A hipótese de fundo de investimentos conserva a especulação com ração, e a referência ao código do medalhão não foi antecipada nas falas.
+- A casa e a cabana abertas receberam concordância feminina. A frase sobre peso excessivo ficou sem gênero arbitrário. O rótulo Boris de 1955 foi preservado conforme a fonte, sem ser usado para renomear Toby ou alterar parentesco.
+
+## Lote 0009
+
+- 250 entradas traduzidas, incluindo o atendimento comercial absurdo do SOS Canibalismo, a sátira da Grumpy Radio e as interações com Gustave, a TNT e a piranha.
+- Kit Consolo e Limpeza mantém o preço de US$ 499,99 e os itens: lenços, vela de lembrança e esponja para os restos do ente querido. O slogan da vela evita atribuir gênero a quem morreu, e a oferta de esponja premium e ecológica continua inconveniente.
+- A repetição de mal-humorado, o resmungo após a negação e a interrupção MAL-HU... sustentam a piada da rádio. O nome da estação e da música permanece em inglês, conforme o glossário.
+- A confissão do sequestro e a motivação de Gustave para continuar casado não foram suavizadas. A família de degenerados e a mutação anfíbia de Josiane mantêm o contraste entre preocupação aparente e sarcasmo.
+- EN/FR divergem fortemente em 2276: a tradução segue o aviso inglês de que a caixa pode explodir com a casa, em vez da sugestão positiva francesa. Os três avisos ingleses idênticos usam a mesma redação.
+- A concordância foi conferida nos referentes nativos: gavetas e caixa de TNT no feminino, armário no masculino. Piranha foi mantida como nome do peixe, sem trocar o predador por outro animal.
+
+## Lote 0010
+
+- 250 entradas traduzidas, com revisão do restante do atendimento telefônico, opções de diálogo e começo das interações da cozinha.
+- O número 911, a idade de 35 anos e a probabilidade de uma em 125.565.687.565 foram mantidos, com separadores brasileiros. O desconto de 3% continua aplicado ao mesmo Kit Consolo e Limpeza.
+- A confissão de 1978 mantém a referência sexual violenta e não gráfica da fonte, sem convertê-la na fala anterior sobre comer uma rã. A coleção de unhas, a acusação de trote e a oferta de desconto preservam o absurdo da conversa.
+- A referência à queda de Guybrush permanece sem explicação adicional. A ameaça de arrancar uma perna retoma o machado ausente; a frase sobre segunda ocorrência pela metade do preço continua na despedida comercial.
+- A bandeja da geladeira e a pia receberam concordância feminina. A limpeza de 3607 se refere ao fogão, no masculino, conferido no contexto Stove: Look at; o braço da vovó, os iogurtes e o pelo do hamster conservam seus próprios referentes. Relógio marcando 22h, certeza de 98% e pistas do pelo arrepiado foram preservados.
+- Pascal é o nome da piranha, com referência masculina explícita na fala inglesa. O rótulo feminino do peixe não foi usado para mudar o pronome pessoal do personagem.
+- Comparadas as frases repetidas nos dez lotes: não restaram divergências de tradução em fontes inglesas idênticas com mais de 18 caracteres. Essa comparação é uma verificação de consistência, não uma garantia de equivalência entre contextos diferentes nem aprovação automática de tradução.
+
+## Correção do validador durante o lote 0010
+
+O reconhecimento de marcadores confundia o começo da palavra discount em 3% discount com o especificador printf `% d`, e também rejeitava 98% de certeza. A correção distingue esse caso de porcentagem numérica seguida de palavra, mantendo a proteção de `%d`, `%02d`, `% d`, especificadores posicionais e tags. Foram revistos o diff e o recibo somente do código alterado, preservando os hashes dos demais componentes. A geração das fontes permaneceu igual.
+
+Passaram os oito testes de NativeTests, incluindo a nova regressão de percentuais e os testes existentes de tags, além dos testes de aplicação parcial e de build incompleto/completo com fixture. Não se repetiu a suíte longa de 500 pequenas transações por uma alteração restrita ao reconhecimento de texto. A verificação do projeto real continua separada do teste visual em jogo.
+
 ## Limites e próximos passos
 
-A revisão textual não demonstra encaixe em tela, acentos renderizados ou temporização dos fragmentos. Nenhum arquivo da instalação foi alterado. PTBR nativo só pode ser gerado pelo build completo, após terminar e revisar todas as entradas. O próximo lote é `batch-0008.jsonl`; não recomeçar nem sobrescrever os lotes concluídos.
+A revisão textual não demonstra encaixe em tela, acentos renderizados ou temporização dos fragmentos. Nenhum arquivo da instalação foi alterado. PTBR nativo só pode ser gerado pelo build completo, após terminar e revisar todas as entradas. O próximo lote é `batch-0011.jsonl`; não recomeçar nem sobrescrever os lotes concluídos.

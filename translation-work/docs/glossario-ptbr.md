@@ -52,5 +52,14 @@ Decisões da tradução manual. Cada equivalente vale no contexto indicado; não
 | Grandma's necklace / medallion | medalhão da vovó | O mesmo objeto é identificado como medalhão em 1836/1952/2919/3211/3388, inclusive com números para o cofre. Entrada 1740 usa necklace; a referência francesa confirma médaillon. |
 | Cookies Folies | Cookies Folies | Nome da propaganda repetida pelo papagaio; cookies mantém o jogo com a marca em 1786–1792. |
 | Grumpy Radio | Grumpy Radio | Nome próprio da estação, 1235/1237. O adjetivo grumpy em prosa é mal-humorado; não confundir com o nome da rádio. |
+| radio (do enigma de Chirac) / X-ray | radiografia | 1891–1892/3197/3357/3366/3707 confirmam a imagem do interior do cachorro usada como mapa para o carrinho. Não confundir com o aparelho de rádio. |
+| Shiny T-Rex Pooping on a Velociraptor | T-Rex brilhante fazendo cocô num velociraptor | Nome da carta procurada por Toby, 1871/1780. Não inventar impressão holográfica; preto e rosa são pistas explícitas em 1723. |
+| poo / pooping (Toby) | cocô / fazendo cocô | Contraste com shitting do protagonista, traduzido como cagando em 1873; manter a voz infantil e a explosão adulta. |
+| helium tank | cilindro de hélio | Objeto do jardim e prêmio da Helium Express, 1930/2009/2013. |
+| SOS Cannibalism | SOS Canibalismo | Serviço fictício de atendimento telefônico e opções de chamada, 1965/2289/2356. |
+| Comfort & Clean-Up Kit | Kit Consolo e Limpeza | Produto satírico do SOS Canibalismo; manter o nome em 3628/1981. |
+| medical file | prontuário médico | Documento encontrado na gaveta, 2299. |
+| tray (da geladeira) | bandeja | Peça emperrada, 2392–2393/2524; feminina na concordância. |
+| radish | rabanete | Vegetal da cozinha, 2432/2479. Não confundir com alho-poró, mencionado em 2378. |
 
 Pikwik, Chirac, Toby, Henri, Bertrand, Josiane, Gustave e Roger são mantidos. Registrar novos termos apenas após leitura de seu contexto.

@@ -1,6 +1,6 @@
 {
   "batch_size": 250,
-  "completed": 1750,
+  "completed": 2500,
   "completed_batches": [
     {
       "count": 250,
@@ -36,13 +36,28 @@
       "count": 250,
       "name": "batch-0007.jsonl",
       "sha256": "4b39c04900cabddc8464c58cecdb78cfd275e413a3ac3518b2396b99340e7af0"
+    },
+    {
+      "count": 250,
+      "name": "batch-0008.jsonl",
+      "sha256": "908d01b1bcc22f670d56321f7faa47a7304542f7e143be12003988b0938403cd"
+    },
+    {
+      "count": 250,
+      "name": "batch-0009.jsonl",
+      "sha256": "9d5ac59f1b922804c53d1edd96d51c67ddd1220400f43f9a9b29b1234a8cd864"
+    },
+    {
+      "count": 250,
+      "name": "batch-0010.jsonl",
+      "sha256": "25ac8cfd5eb03bea03bc23ce790008776768b6458ef5c704ea0276cbbe5d2bf4"
     }
   ],
   "game_installation_written": false,
   "host_doctor": "passed",
   "native_output_created": false,
-  "next_batch": "batch-0008.jsonl",
-  "pending": 2020,
+  "next_batch": "batch-0011.jsonl",
+  "pending": 1270,
   "review_record": "translation-work/reports/translation-review.md",
   "schema": 1,
   "source_generation": "9e048d3adc347d303b1e3753a481da8c3863aac987771f5689be93f0d0665df8",
