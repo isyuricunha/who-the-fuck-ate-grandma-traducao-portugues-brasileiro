@@ -130,6 +130,19 @@ class NativeTests(Sandbox):
                 validate_text('<b>Hello {0} [wait:1]</b>', text)
         validate_text('<b><i>{0}</i></b>', '<b><i>{0}</i></b>')
 
+    def test_percentages_in_prose_and_real_printf_tokens(self):
+        validate_text('Consider a 3% discount.', 'Considere um desconto de 3%.')
+        validate_text('98% certainty.', '98% de certeza.')
+        validate_text('100% real!', '100% de verdade!')
+        validate_text('3% discount; balance % d.', 'Desconto de 3%; saldo % d.')
+        for source, target in [('Balance % d.', 'Saldo d.'),
+                               ('Balance % dkg.', 'Saldo %skg.'),
+                               ('Code 1%d.', 'Código 1%s.'),
+                               ('Total %02d.', 'Total %d.'),
+                               ('Value %1$.2f.', 'Valor %1$.2d.')]:
+            with self.subTest(source=source), self.assertRaises(ValueError):
+                validate_text(source, target)
+
 
 class WorkflowTests(Sandbox):
     def test_exact_initial_batching_and_preserve_duplicates(self):

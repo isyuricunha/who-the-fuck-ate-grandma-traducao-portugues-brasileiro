@@ -35,8 +35,18 @@ def immutable(record):
 
 
 def protected(text):
-    tokens = re.findall(r'\[[a-zA-Z][^\]\n]*\]|\{(?:[0-9]+|[a-zA-Z_]\w*)(?::[^}]+)?\}'
-                        r'|%(?:\d+\$)?[-+ #0]*\d*(?:\.\d+)?[sdfiu]|<[^>\n]+>', text)
+    matches = re.finditer(r'\[[a-zA-Z][^\]\n]*\]|\{(?:[0-9]+|[a-zA-Z_]\w*)(?::[^}]+)?\}'
+                         r'|%(?:\d+\$)?[-+ #0]*\d*(?:\.\d+)?[sdfiu]|<[^>\n]+>', text)
+    tokens = []
+    for match in matches:
+        token = match.group()
+        # Numeric percentages followed by words (3% discount, 98% de certeza)
+        # are prose, not printf's space flag. Retain actual %d, %02d, % d, etc.
+        if (re.fullmatch(r'% +[sdfiu]', token) and match.start() > 0
+                and text[match.start() - 1].isdigit() and match.end() < len(text)
+                and text[match.end()].isalpha()):
+            continue
+        tokens.append(token)
     return collections.Counter(tokens)
 
 
