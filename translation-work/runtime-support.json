@@ -1,11 +1,11 @@
 {
   "dependencies": [],
-  "live_arm64": "pending",
+  "live_arm64": "passed",
   "python": ">=3.10",
   "schema": 1,
   "target": "Ubuntu 24.04 ARM64",
   "toolchain": {
     "path": "translation-work/toolchain.json",
-    "sha256": "2b4ccbc3cb95094318071b31646b431a2ed7ef99f1a1931b6a401bb3f668acf7"
+    "sha256": "2778866da75e2086dc4689deac6b137de0b1a73cf56b482ea5fcc4b433156b94"
   }
 }

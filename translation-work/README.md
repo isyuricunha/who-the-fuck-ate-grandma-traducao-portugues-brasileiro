@@ -10,7 +10,7 @@ python3 -B translation-work/toolkit.py doctor
 
 Requer Python 3.10 ou posterior e sua biblioteca padrão. Não usa Mono, .NET, DLLs auxiliares, pip, serviços externos ou executáveis Windows. O preflight verifica arquitetura Linux ARM64/aarch64, recibos de integridade encadeados, fonte aceita, lotes e uma fixture nativa válida, incluindo leitura, reconstrução sem perdas e strings Unicode maiores. Ele não traduz, instala, altera os originais nem cria PTBR. Se falhar, pare antes de traduzir e encaminhe o erro exato ao responsável pelo toolkit. Não reinstale pacotes nem regenere hashes para contornar o erro.
 
-**Verificação de plataforma:** desenvolvimento e testes executados no Windows com Python 3.14; execução no Ubuntu ARM64 **pendente do preflight real**. Compatibilidade esperada pela ausência de dependências nativas; não é apresentada como teste remoto realizado. Para repetir o preflight no Windows: `python -B translation-work/toolkit.py doctor --target host`.
+**Verificação de plataforma:** desenvolvimento e testes iniciais executados no Windows com Python 3.14. Em 27/10/2026, `doctor`, `check`, `build` e `verify-output` passaram no Ubuntu ARM64/aarch64 real, com Python 3.12.3. O teste de execução do jogo no Windows permanece pendente. Para repetir o preflight no Windows: `python -B translation-work/toolkit.py doctor --target host`.
 
 Leia o [briefing já pesquisado e escrito durante a engenharia](docs/briefing-do-jogo.md), o [fluxo de tradução](docs/fluxo-de-traducao.md) e a [descrição do formato](docs/formato-localizacao.md). O tradutor mantém o glossário e as diretrizes; a pesquisa inicial não ficou delegada à tradução.
 
@@ -33,7 +33,7 @@ O catálogo contém **3.770 registros**, organizados em **16 lotes: 15 × 250 + 
 
 A tabela acima discrimina as 3.686 entradas centrais. As 84 falas adicionais também são `Speech` e têm identidades por arquivo/PathID/campo. Fontes gerenciadas: `resources.assets` e `level0` até `level15`, preservados em EN. O build publica somente os 12 arquivos efetivamente necessários: `resources.assets`, `level2` e `level4` até `level13`.
 
-Não há PTBR parcial. A pasta de saída só aparece depois de um build explicitamente solicitado e inteiramente completo. Nenhum texto foi traduzido automaticamente. Saídas sintéticas dos testes ficam em diretórios temporários, fora dos lotes reais.
+**Estado em 27/10/2026:** todos os **3.770 registros estão traduzidos**, sem pendências, e o build completo criou `PTBR/` com os 12 recursos nativos esperados. `verify-output` aprovou o pacote; ele ainda não foi instalado nem testado no jogo. Não há pacote parcial e não foi usado preenchimento automático de textos. Saídas sintéticas dos testes ficam em diretórios temporários, fora dos lotes reais.
 
 ## Organização e propriedade
 
@@ -137,4 +137,4 @@ O README da raiz é voltado ao jogador, com arte oficial e links estáveis. Cont
 python -B -m unittest discover -s translation-work/tests -v
 ```
 
-Consulte [validacao.md](docs/validacao.md) para resultados e limitações verificadas. Não houve teste em jogo, instalação, acesso ao servidor ARM64, commit, push ou Release ao preparar este toolkit.
+Consulte [validacao.md](docs/validacao.md) para resultados e limitações verificadas. A toolkit e o build foram validados no servidor ARM64, mas não houve instalação, teste em jogo, commit, push ou Release nesta conclusão da tradução.

@@ -1,66 +1,98 @@
 {
   "batch_size": 250,
-  "completed": 2500,
+  "completed": 3770,
   "completed_batches": [
     {
-      "count": 250,
       "name": "batch-0001.jsonl",
+      "count": 250,
       "sha256": "13b3801c437b4c6a71da511060a2d76519fc855d1f4f0f6c272ccff296f5ab14"
     },
     {
-      "count": 250,
       "name": "batch-0002.jsonl",
+      "count": 250,
       "sha256": "91b2af7760f2ff43003fbe9d200e04c536ae6c68d7b080650f787667c5e0b69a"
     },
     {
-      "count": 250,
       "name": "batch-0003.jsonl",
+      "count": 250,
       "sha256": "2dc230188a3b7cce9e53dce6ecb29496e6330791002fc3c50ca61031a143a3a3"
     },
     {
-      "count": 250,
       "name": "batch-0004.jsonl",
+      "count": 250,
       "sha256": "96ed4d125f98ce8dd379a4f6c04390b29f1a8aed251859adb5376b4d96955972"
     },
     {
-      "count": 250,
       "name": "batch-0005.jsonl",
+      "count": 250,
       "sha256": "7236909f0bbe976e0fca5f478c909f5cbbc8306bc9124731892f9dc7810dfa5a"
     },
     {
-      "count": 250,
       "name": "batch-0006.jsonl",
+      "count": 250,
       "sha256": "2e70f7cb50b76812786bd0a9884535387107286b7f5ae3741ce295c6244e5166"
     },
     {
-      "count": 250,
       "name": "batch-0007.jsonl",
+      "count": 250,
       "sha256": "4b39c04900cabddc8464c58cecdb78cfd275e413a3ac3518b2396b99340e7af0"
     },
     {
-      "count": 250,
       "name": "batch-0008.jsonl",
+      "count": 250,
       "sha256": "908d01b1bcc22f670d56321f7faa47a7304542f7e143be12003988b0938403cd"
     },
     {
-      "count": 250,
       "name": "batch-0009.jsonl",
+      "count": 250,
       "sha256": "9d5ac59f1b922804c53d1edd96d51c67ddd1220400f43f9a9b29b1234a8cd864"
     },
     {
-      "count": 250,
       "name": "batch-0010.jsonl",
+      "count": 250,
       "sha256": "25ac8cfd5eb03bea03bc23ce790008776768b6458ef5c704ea0276cbbe5d2bf4"
+    },
+    {
+      "name": "batch-0011.jsonl",
+      "count": 250,
+      "sha256": "52a51b19080a302ab10eae7583d8089653b1fefa4e64aa3485eb27186762149b"
+    },
+    {
+      "name": "batch-0012.jsonl",
+      "count": 250,
+      "sha256": "f0d003726e8dde2e1e99c636e6ba443546eb1702a074c24b892c19202c0576a6"
+    },
+    {
+      "name": "batch-0013.jsonl",
+      "count": 250,
+      "sha256": "c22a3bf29b8a4940a0aad0bdc5fd1b1111a7188aae228c1f2597f1cece02899a"
+    },
+    {
+      "name": "batch-0014.jsonl",
+      "count": 250,
+      "sha256": "3b309e2b9540a43b2d273dc37a76c4e90f6759e7e8cb2b68ca4b4fe4a3a82e49"
+    },
+    {
+      "name": "batch-0015.jsonl",
+      "count": 250,
+      "sha256": "77f74ef61f51b33d98b16b98490235c9037812cea5722a7cf9db47093f70f7ae"
+    },
+    {
+      "name": "batch-0016.jsonl",
+      "count": 20,
+      "sha256": "f5e7696fea32f2f98c2cdeacfb3e6385962a6834e8a88cc1d5766582458ff4ca"
     }
   ],
   "game_installation_written": false,
   "host_doctor": "passed",
-  "native_output_created": false,
-  "next_batch": "batch-0011.jsonl",
-  "pending": 1270,
+  "native_output_created": true,
+  "next_batch": null,
+  "pending": 0,
   "review_record": "translation-work/reports/translation-review.md",
   "schema": 1,
   "source_generation": "9e048d3adc347d303b1e3753a481da8c3863aac987771f5689be93f0d0665df8",
   "technical_check": "passed",
-  "total": 3770
+  "total": 3770,
+  "native_output_verified": true,
+  "game_runtime_tested": false
 }

@@ -1,0 +1,28 @@
+{
+  "english_disabled": true,
+  "game_tested": false,
+  "generation": "9e048d3adc347d303b1e3753a481da8c3863aac987771f5689be93f0d0665df8",
+  "output": {
+    "Who the fuck ate grandma_Data/level10": "aa2b7ebe08780a2f2e87d50260891cfe2119f92fdd7b2320a50f6afb5ac73b8a",
+    "Who the fuck ate grandma_Data/level11": "df3a0eda2b61cdb9375b4bc855def35b211b5dafa0bb2c364f4d2391433ed8a1",
+    "Who the fuck ate grandma_Data/level12": "47ae5e6b681e4511c4e422044cefb1ca4f38cec519b261d6693455f7b0927170",
+    "Who the fuck ate grandma_Data/level13": "aae3b5a9412cd9aad8b82a0be75a4b19830e4b647a0d33fe8d7c5c7bfcf9841a",
+    "Who the fuck ate grandma_Data/level2": "a0fcf84d2c0ad170ef64747b616ed29278b4f44657763f44f19a2595e7c1ce3f",
+    "Who the fuck ate grandma_Data/level4": "ecb0822f16cf878516595458ae49a175c5a1ca965fe12ff2b90da0838b5af468",
+    "Who the fuck ate grandma_Data/level5": "acad4f0de911416f56fe513825797757f2a9b6351b27e5a585b0f41a4323ce46",
+    "Who the fuck ate grandma_Data/level6": "bc56c7e8b88f4a8f46209a518945be0b824e5718aa1b55219b5cfce297c773ef",
+    "Who the fuck ate grandma_Data/level7": "c368dd6b51afccc412c285c24a7835614f52f29ee20713c1c88fa75d11739463",
+    "Who the fuck ate grandma_Data/level8": "7cac3069f35e0aa0304eacf39a153fe1cb03c25ab01022f4e8b87224d2e23863",
+    "Who the fuck ate grandma_Data/level9": "8607bf7ba4955a957f487a32d3cb8828769ddb876ebcf6b0680f3ab8cccbad71",
+    "Who the fuck ate grandma_Data/resources.assets": "f3ee4e7a9d121087fa933bf29921ac9f24b877bf31cea51fc952613939e29818"
+  },
+  "preserved_french_slot": 2,
+  "record_count": 3770,
+  "replaces": "English",
+  "schema": 1,
+  "slot": 1,
+  "source_sha256": "c97035fe592f5cef08d234ea16e5f2354321c9c02fb83441174309bc0156449f",
+  "target_language": "Português (Brasil)",
+  "toolchain_sha256": "2778866da75e2086dc4689deac6b137de0b1a73cf56b482ea5fcc4b433156b94",
+  "translation_fingerprint": "d7207cbbd9d9e6b674d11c4d78ca13c54bc34e1039860387a77599435820090a"
+}

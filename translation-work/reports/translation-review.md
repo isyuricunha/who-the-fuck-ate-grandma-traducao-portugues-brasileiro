@@ -104,6 +104,15 @@ O reconhecimento de marcadores confundia o começo da palavra discount em 3% dis
 
 Passaram os oito testes de NativeTests, incluindo a nova regressão de percentuais e os testes existentes de tags, além dos testes de aplicação parcial e de build incompleto/completo com fixture. Não se repetiu a suíte longa de 500 pequenas transações por uma alteração restrita ao reconhecimento de texto. A verificação do projeto real continua separada do teste visual em jogo.
 
+## Lotes 0013 a 0016 — conclusão em 27/10/2026
+
+- **Lote 0013 (250 entradas):** diário da caverna, falas avulsas e objetos. As páginas consolidadas dos dias 1, 5, 45, 103, 180 e 349 receberam tradução completa, preservando parágrafos, repetições e a progressão do desespero. A sequência da galinha gigante e do molho barbecue foi mantida. Rótulos como Talkie, Walkie, sílex, malho, gaita e vara de pescar seguem as decisões existentes. A transparência do retroprojetor foi alinhada entre rótulo, descrição e dicas.
+- **Lote 0014 (250 entradas):** interface, tutorial, objetivos, dicas iniciais e descrições do inventário. Todos os menus foram localizados; os trechos do diário e as mensagens multilinha foram preservados. As pistas do carrinho, da radiografia, da coleção de Toby, do hamster e do medalhão seguem a terminologia adotada.
+- **Lote 0015 (250 entradas):** falas nativas originalmente sem ID de idioma, além de dicas e soluções de enigmas. Alguns textos EN originais estão em francês e foram traduzidos pelo significado, sem alterar os campos originais. As soluções distinguem ações exatas e as dicas preservam o caráter gradual da ajuda. Os nomes próprios e os dois aparelhos Talkie/Walkie não foram unificados.
+- **Lote 0016 (20 entradas):** últimas falas sem ID de localização, entre elas interações no quarto e na caverna. O tradutor editou somente PTBR, sem criar IDs manualmente ou alterar os arquivos nativos originais.
+
+O estado real chegou a **3.770/3.770 entradas preenchidas**, com `check` e `doctor` aprovados no Ubuntu ARM64. O `build` gerou os 12 arquivos nativos esperados e `verify-output` aprovou hashes, inventário, fonte e recibo. Foram aprovados ainda 20 testes das suítes de fontes, Release simulada e documentos, além de dois testes pontuais do toolkit.
+
 ## Limites e próximos passos
 
-A revisão textual não demonstra encaixe em tela, acentos renderizados ou temporização dos fragmentos. Nenhum arquivo da instalação foi alterado. PTBR nativo só pode ser gerado pelo build completo, após terminar e revisar todas as entradas. O próximo lote é `batch-0011.jsonl`; não recomeçar nem sobrescrever os lotes concluídos.
+A conclusão das entradas e a aprovação técnica **não substituem** uma segunda revisão linguística integral nem teste do jogo. Priorizar teste de exibição das falas quebradas em vários IDs, acentos, títulos, inventário, páginas longas do diário, menus, pistas e saves. Nenhum arquivo da instalação foi alterado e não houve teste de jogabilidade nem publicação. A política de Release exige também prova documental verificável de direito de redistribuição dos recursos Unity; o campo de autorização habilitado isoladamente não atende a esse requisito.

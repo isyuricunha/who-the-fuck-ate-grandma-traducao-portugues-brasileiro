@@ -5,9 +5,9 @@
     "D:/Games/Who The Fuck Ate Grandma"
   ],
   "redistribution": {
-    "authorized": false,
+    "authorized": true,
     "evidence": "",
-    "reason": "resources.assets includes proprietary game media; redistribution permission has not been supplied"
+    "reason": "Maintainer enabled authorization; rightsholder evidence is not recorded, so release publication remains blocked"
   },
   "replacement_language": "English",
   "repository": "isyuricunha/who-the-fuck-ate-grandma-traducao-portugues-brasileiro",

@@ -33,13 +33,21 @@ python -B translation-work/toolkit.py build
 
 **Resultados executados no Windows:** rodada completa com **49 testes em 529,139 s**, sem falhas e com **um skip** de criação de symlink por restrição do sistema. Após o refinamento da associação de falantes, foram reexecutados **seis testes de fontes/registro de idiomas**, **oito de Release** e **seis de documentação**, todos aprovados. O teste adicional de associação por referência nativa integra agora a suíte. O cenário de 500 aplicações foi executado na rodada completa; não foi repetido por uma alteração que afetou apenas metadados de falante no build.
 
-No projeto real: `check` aprovado com 3.770 pendências; `doctor --target host` aprovado; `update-sources --dry-run` retornou `unchanged`; `gc --dry-run` não identificou poda necessária; `build` retornou código 1 e preservou a ausência de PTBR. Os hashes dos 17 originais instalados coincidem com EN. O relatório `native-proof.json` registra ainda uma reconstrução dos 12 arquivos em memória, usando valores de referência originais, para validar todos os vínculos e a conservação do francês. Essa prova não constitui tradução nem grava saída PTBR.
+Durante a preparação inicial, ainda no Windows, `check` foi aprovado com 3.770 pendências; `doctor --target host` foi aprovado; `update-sources --dry-run` retornou `unchanged`; `gc --dry-run` não identificou poda necessária; `build` retornou código 1 e preservou a ausência de PTBR. Este resultado é histórico, anterior à tradução. Os hashes dos 17 originais instalados coincidem com EN. O relatório `native-proof.json` registra ainda uma reconstrução dos 12 arquivos em memória, usando valores de referência originais, para validar todos os vínculos e a conservação do francês. Essa prova não constitui tradução nem grava saída PTBR.
 
 A suíte cobre extração, lotes, campos imutáveis, aplicação parcial, substituição explícita, geração incorreta, fontes/contextos alterados, adição/remoção/reordenação, EN substituído manualmente, fontes desconhecidas, no-op, fingerprints LF/Git, corrupção binária, controle de disco, travas, staging interrompido, recuperação/rollback, caminhos inseguros, receipts corrompidos e retenção. O cenário de **500 aplicações pequenas em 101 lotes** verifica que os outros lotes mantêm bytes/mtime, no máximo dez snapshots são retidos e o histórico desse cenário permanece abaixo de 100 KiB.
 
 Os testes de Release executam o cliente HTTP: raiz correta da API, tags, rascunho, upload, confirmação de digest/tamanho, publicação, primeira versão, patch seguinte, repetição idempotente, draft interrompido, asset inesperado, erro 403/404, retry de GET, tag órfã/não ancestral e avanço concorrente da branch. São testes locais; nenhuma Release foi publicada.
 
 O teste que cria um symlink real pode ser ignorado pelo Windows quando a conta não tem privilégio de criação. A validação de escape de caminhos continua coberta; não se afirma que a criação de symlink foi autorizada ou testada nesse ambiente.
+
+## Execução real após conclusão da tradução — 27/10/2026
+
+- **Tradução:** 3.770/3.770 registros com PTBR não vazio; nenhum pendente, em 16 lotes.
+- **Plataforma:** Linux ARM64/aarch64, Python 3.12.3. `doctor` confirmou integridade da toolchain, biblioteca padrão e roundtrip de fixtures; `check` aprovou fontes e JSONL reais.
+- **Reconstrução:** `build` gerou 12 recursos Unity nativos para `PTBR/`; `verify-output` validou SHA-256, inventário, geração e recibo sem nova reconstrução.
+- **Testes:** 6 testes de fontes, 8 de Releases com API simulada e 6 de documentação passaram no servidor; também passaram dois testes pontuais do toolkit (build completo/incompleto em fixture e validação de porcentagens). A suíte completa prolongada não foi repetida nesta execução.
+- **Limites:** nenhum teste de execução do jogo Windows, layout, renderização de caracteres, áudio, saves ou publicação foi feito. A inspeção linguística integral independente continua recomendada.
 
 ## Pesquisa, links e documentos
 
@@ -51,9 +59,9 @@ O Markdown, a hierarquia, os textos alternativos, os links e os badges foram rev
 
 ## Limitações que permanecem
 
-- **Ubuntu 24.04 ARM64:** execução real pendente. Após clone/pull, o tradutor executa uma única vez `python3 -B translation-work/toolkit.py doctor`; se falhar, encaminha o erro e não inicia tradução.
+- **Ubuntu 24.04 ARM64:** `doctor` executado com sucesso no Linux aarch64 real (Python 3.12.3), e `check`, `build` e `verify-output` também aprovados. Isso confirma os comandos executados, mas não equivale a teste de jogabilidade.
 - **Jogo:** nenhuma execução, instalação, validação visual de acentos, verificação de saves ou teste de jogabilidade foi realizado. O suporte a Unicode no arquivo não prova glifos no atlas.
 - **GitHub:** workflows preparados e cliente testado por mock; execução real remota e publicação não realizadas. A proteção de branch para exigir aceite de contribuição depende de configuração do mantenedor.
-- **Redistribuição:** autorização para recursos proprietários não fornecida. O publisher falha antes de chamadas de publicação enquanto `redistribution.authorized` estiver falso ou faltar a evidência. Verifique também o direito de publicar as cópias originais em EN antes de tornar este conteúdo público.
+- **Redistribuição:** o mantenedor solicitou `redistribution.authorized: true`, registrado no projeto, mas nenhuma evidência documental de autorização dos titulares foi fornecida (`evidence` continua vazio). O publisher ainda bloqueia a publicação antes de acessar a API. Os arquivos Unity originais presentes em `EN/` também já estão versionados em repositório público; o bloqueio da Release não substitui a verificação dos direitos dessa distribuição.
 - **Formato:** o adaptador é específico ao perfil analisado; novas cenas, layouts, mensagens dinâmicas sem vínculo ou compilação incompatível exigem revisão. Não há suporte declarado a outros mods/plataformas.
-- **Entrega Git:** arquivos preparados localmente; sem commit ou push automático.
+- **Entrega Git:** tradução e build concluídos no clone de trabalho; sem commit, push ou Release efetuados.
