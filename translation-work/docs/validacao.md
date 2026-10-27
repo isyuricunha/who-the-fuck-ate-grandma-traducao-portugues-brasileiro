@@ -6,7 +6,7 @@
 - Engine: Unity `6000.2.9f1`, arquivo serializado v22, player Windows IL2CPP, Adventure Creator.
 - `resources.assets` original: 43.959.176 bytes; SHA-256 `17599bf6650a62f79a120424ef5c0933cfdf05107c3b32e6946dd007377347d1`.
 - 3.686 IDs únicos no SpeechManager; a revisão estrutural das cenas acrescentou 84 mensagens não vazias sem ID de localização. Uma ação com mensagem vazia não foi transformada em tarefa linguística.
-- Catálogo final de preparação: **3.770 unidades, oito lotes (7 × 500 + 270), todas pendentes**. O estado corrente está no manifesto/status.
+- Catálogo inicial de preparação: **3.770 unidades**, originalmente em oito lotes e ainda sem tradução naquele momento. Em 27/10/2026, a pedido do mantenedor, os mesmos registros foram reorganizados em **16 lotes (15 × 250 + 20)** para a tradução manual. A contagem e o progresso correntes estão no manifesto/status e em `translation-progress.json`.
 - Fontes: 17 arquivos nativos preservados em EN, com caminhos originais. A reconstrução sem alterações retorna os bytes de cada fonte. Uma versão completa do pacote precisa de 12 arquivos: recurso central e 11 cenas com registros de fala adicionados.
 - `scene-audit.json` guarda a varredura heurística inicial e seus candidatos; não deve ser usado como contagem final. A contagem e os vínculos finais vêm do parser de ActionSpeech.
 

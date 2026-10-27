@@ -35,6 +35,8 @@ O catálogo expõe `owner`, `scene`, `description`, `is_player`, tipo e evidênc
 
 Não foi localizado um seletor de gênero configurável pelo jogador no perfil gerenciado. Isso não autoriza afirmar que toda construção dinâmica do jogo foi auditada. Verifique separadamente falante, destinatário e referente. A frase de uma personagem feminina sobre um homem continua exigindo concordância com o homem descrito. Mudanças na fonte da evidência invalidam o contexto dependente para revisão, sem descartar traduções não relacionadas.
 
+**Evidência adicional conferida na tradução (27/10/2026):** em 215–216, o protagonista se despede da irmã e Josiane responde chamando-o de irmão mais novo. A sequência 303–306 identifica Bertrand, René e Henri como irmãos dele, Josiane como irmã, Gustave como marido dela e Toby como filho dela. Isso confirma relações e a referência masculina ao protagonista sem depender do identificador `Heros`. Nos JSONL, `unknown` continua indicando o limite da extração técnica; esta evidência textual suplementar fundamenta as escolhas de concordância nas diretrizes.
+
 ## Vocabulário e desafios recorrentes
 
 - **Will** pode designar documento sucessório neste contexto, não apenas vontade ou verbo auxiliar. Consulte os grupos de objetivo relacionados ao testamento e às informações familiares.

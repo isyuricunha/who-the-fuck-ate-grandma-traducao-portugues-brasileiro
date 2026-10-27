@@ -3,7 +3,7 @@
 1. Faça clone/pull e execute `python3 -B translation-work/toolkit.py doctor` no Ubuntu 24.04 ARM64. Se falhar, encaminhe o erro e pare; nenhuma tradução ou instalação é feita por esse comando.
 2. Leia o briefing já pesquisado e escrito durante a engenharia, o README técnico e o formato. Não é necessário produzir a pesquisa inicial do zero.
 3. Registre decisões próprias em `glossario-ptbr.md` e `diretrizes-de-traducao.md`.
-4. Execute `status`, `resume` e `diff`. Localize a próxima entrada pendente; cada lote completo guarda 500 registros, mas você pode trabalhar em grupos menores.
+4. Execute `status`, `resume` e `diff`. Localize a próxima entrada pendente; cada lote completo guarda **250 registros**, mas você pode trabalhar em grupos menores. A configuração atual foi solicitada pelo mantenedor em 27/10/2026.
 5. Traduza apenas PTBR, consultando EN, FR e contexto. Compare falas próximas pelo `row`, os grupos de `owner` e a `description`; não renomeie IDs, objetos, cenas ou lógica.
 6. Antes de flexionar gênero, distinga quem fala, quem ouve e quem está sendo descrito. `unknown` pede pesquisa contextual, não concordância masculina automática. Use as evidências citadas por ID e não apenas o nome do personagem.
 7. Aplique um payload com a geração atual, confira o resultado e execute `check`. Rejeições parciais retornam código 2 e motivos por ID. Retome apenas o que ficou pendente; `--replace` é reservado à revisão intencional de valores já aceitos.

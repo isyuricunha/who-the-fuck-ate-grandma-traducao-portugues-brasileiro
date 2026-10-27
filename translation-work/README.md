@@ -16,7 +16,7 @@ Leia o [briefing já pesquisado e escrito durante a engenharia](docs/briefing-do
 
 ## Estado da preparação
 
-A preparação contém **3.770 registros**, todos com PTBR vazio, em **8 lotes: 7 × 500 + 270**: 3.686 entradas do SpeechManager e **84 falas não vazias sem ID de tradução** nas cenas. Outra ação sem ID tem mensagem vazia e não é unidade linguística. A auditoria não usou deduplicação por frase. Há cenas antigas e textos potencialmente não usados em execução: a presença no arquivo não prova visibilidade atual. Consulte `status` para o progresso atual.
+O catálogo contém **3.770 registros**, organizados em **16 lotes: 15 × 250 + 20**, conforme a solicitação de tradução manual de 27/10/2026: 3.686 entradas do SpeechManager e **84 falas não vazias sem ID de tradução** nas cenas. Outra ação sem ID tem mensagem vazia e não é unidade linguística. Os lotes começaram com PTBR vazio e a reorganização preservou todos os campos e IDs. A auditoria não usou deduplicação por frase. Há cenas antigas e textos potencialmente não usados em execução: a presença no arquivo não prova visibilidade atual. Consulte `status` e o [registro de revisão textual](reports/translation-review.md) para acompanhar o trabalho.
 
 | Tipo nativo | Entradas |
 | --- | ---: |
