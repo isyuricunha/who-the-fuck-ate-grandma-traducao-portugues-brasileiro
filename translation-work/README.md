@@ -31,9 +31,9 @@ O catálogo contém **3.770 registros**, organizados em **16 lotes: 15 × 250 + 
 | HotspotPrefix | 5 |
 | CursorIcon | 4 |
 
-A tabela acima discrimina as 3.686 entradas centrais. As 84 falas adicionais também são `Speech` e têm identidades por arquivo/PathID/campo. Fontes gerenciadas: `resources.assets` e `level0` até `level15`, preservados em EN. O build publica somente os 12 arquivos efetivamente necessários: `resources.assets`, `level2` e `level4` até `level13`.
+A tabela acima discrimina as 3.686 entradas centrais. As 84 falas adicionais também são `Speech` e têm identidades por arquivo/PathID/campo. Fontes gerenciadas: `resources.assets` e `level0` até `level15`, preservados em EN. A camada textual produz 12 arquivos; a correção visual acrescenta `level0`, `sharedassets0.assets` e `GameAssembly.dll`, totalizando 15 arquivos no pacote.
 
-**Estado em 27/10/2026:** todos os **3.770 registros estão traduzidos**, sem pendências, e o build completo criou `PTBR/` com os 12 recursos nativos esperados. `verify-output` aprovou o pacote; ele ainda não foi instalado nem testado no jogo. Não há pacote parcial e não foi usado preenchimento automático de textos. Saídas sintéticas dos testes ficam em diretórios temporários, fora dos lotes reais.
+**Estado em 27/10/2026:** todos os **3.770 registros estão traduzidos**, sem pendências. O teste em jogo informado pelo mantenedor identificou menu inicial em francês e acentos de outro desenho. A correção visual foi preparada com fontes ampliadas e botões localizados; o build atual contém 15 arquivos. O menu foi confirmado pelo mantenedor. O atlas TMP das legendas foi ampliado; o teste da malha no motor confirmou a mesma fonte e escala para os acentos. O mantenedor confirmou em jogo que a revisão v3 corrigiu os acentos. Essa confirmação cobre o menu e as legendas observadas, sem equivaler a uma campanha completa. O toolkit não instala arquivos.
 
 ## Organização e propriedade
 
@@ -43,7 +43,7 @@ A tabela acima discrimina as 3.686 entradas centrais. As 84 falas adicionais tam
 - `translation-work/history/`: diffs duráveis das atualizações de fonte, incluindo valores anteriores removidos/alterados. Devem acompanhar os commits de sincronização.
 - `translation-work/reports/`: relatório da última sincronização. Compare sua geração com `status`; ele não representa necessariamente a última tentativa fracassada.
 - `translation-work/.state/`: recibos e cópias locais de recuperação, ignorados pelo Git.
-- `PTBR/Who the fuck ate grandma_Data/`: saída nativa completa. O PT-BR substitui o inglês no seletor e o francês é preservado. O build registra as falas sem ID no sistema nativo e altera apenas os vínculos de localização nas respectivas cenas.
+- `PTBR/`: saída nativa completa. O PT-BR substitui o inglês no seletor e o francês é preservado. A camada textual registra as falas sem ID; a camada visual corrige fontes e botões, inclui uma instância do estilizador do menu e seu seletor de idioma. `GameAssembly.dll` fica na raiz desta saída; os demais arquivos ficam em `Who the fuck ate grandma_Data/`.
 - `translation-work/build-manifest.json`: recibo de build, fora da instalação, que acompanha o commit de PTBR.
 
 Não existe segundo repositório. O caminho da instalação fornecida serve só para leitura. O toolkit não escreve no jogo; nenhuma opção instala arquivos.
@@ -138,3 +138,7 @@ python -B -m unittest discover -s translation-work/tests -v
 ```
 
 Consulte [validacao.md](docs/validacao.md) para resultados e limitações verificadas. A toolkit e o build foram validados no servidor ARM64, mas não houve instalação, teste em jogo, commit, push ou Release nesta conclusão da tradução.
+
+## Correção visual
+
+`translation-work/visuals/` contém o perfil dos ajustes, fontes, artes, objetos compilados e cópias originais adicionais. O build normal usa somente a biblioteca padrão; as ferramentas opcionais de autoria estão documentadas em [correção visual](docs/correcao-visual.md).

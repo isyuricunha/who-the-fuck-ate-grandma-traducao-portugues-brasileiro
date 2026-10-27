@@ -13,6 +13,7 @@ sys.dont_write_bytecode = True
 from native import DEPLOY, FormatError, catalog, read_source, rebuild, require, sha
 from storage import Store, canonical, digest, encoded, safe
 from sources import blobs, build_sources, fingerprint as source_fingerprint, paths as source_paths, source_catalog
+from visuals import apply as apply_visuals, inputs as visual_inputs, targets as visual_targets, validate_inputs as validate_visual_inputs, PROFILE as VISUAL_PROFILE
 
 ROOT = Path(__file__).resolve().parent.parent
 WORK = 'translation-work/'
@@ -86,6 +87,10 @@ class Project:
         for rel, expected in receipt['files'].items():
             require(sha(canonical(safe(self.root, rel).read_bytes())) == expected,
                     'Toolchain checksum mismatch: ' + rel)
+        if (self.root / VISUAL_PROFILE).exists():
+            require(VISUAL_PROFILE in receipt['files'] and WORK+'visuals.py' in receipt['files'],
+                    'Visual adapter/profile missing from toolchain receipt')
+            validate_visual_inputs(self.root)
         return runtime
 
     def workspace(self, source=True):
@@ -339,7 +344,9 @@ class Project:
         m, records, batches, _ = self.workspace()
         done = sum(bool(r['PTBR']) for r in records.values())
         build = self.root / WORK / 'build-manifest.json'
-        stale = not build.exists() or load(build).get('translation_fingerprint') != self.fingerprint(records) or load(build).get('generation') != m['generation']
+        stale = (not build.exists() or load(build).get('translation_fingerprint') != self.fingerprint(records)
+                 or load(build).get('generation') != m['generation']
+                 or load(build).get('toolchain_sha256') != sha(canonical((self.root / WORK / 'toolchain.json').read_bytes())))
         first = next((r for n in sorted(batches) for r in batches[n] if not r['PTBR']), None)
         report = self.root / WORK / 'reports/sync-latest.json'
         return {'generation': m['generation'], 'total': len(records), 'completed': done,
@@ -349,7 +356,8 @@ class Project:
                 'storage': self.store.stats()}
 
     def build(self):
-        expected = self.expectations([WORK + 'build-manifest.json', *('PTBR/' + rel for rel in source_paths(self.shape))])
+        expected = self.expectations([WORK + 'build-manifest.json', *visual_inputs(self.root),
+            *('PTBR/' + rel for rel in set(source_paths(self.shape)) | visual_targets(self.root))])
         m, records, _, _ = self.workspace()
         pending = sum(not r['PTBR'] for r in records.values())
         require(not pending, f'Build blocked: {pending} entries pending; PTBR preserved')
@@ -362,6 +370,7 @@ class Project:
             require(previous_paths == set(old_receipt['output']), 'Unexpected PTBR output inventory')
         data = self.source_data(self.root / 'EN')
         outputs = build_sources(data, self.shape, list(records.values()))
+        outputs = apply_visuals(self.root, outputs)
         receipt = {'schema': 1, 'generation': m['generation'], 'source_sha256': m['source_sha256'],
                    'translation_fingerprint': self.fingerprint(records), 'record_count': len(records),
                    'output': {rel: sha(raw) for rel, raw in sorted(outputs.items())}, 'target_language': 'Português (Brasil)',
@@ -392,7 +401,7 @@ class Project:
             safe(self.root, 'PTBR/' + rel)
             if p.is_file():
                 files[rel] = digest(p)
-        required = {DEPLOY, *(r['source_file'] for r in records.values() if r['source_file'] != DEPLOY)}
+        required = {DEPLOY, *(r['source_file'] for r in records.values() if r['source_file'] != DEPLOY)} | visual_targets(self.root)
         require(files == receipt['output'] and set(files) == required, 'Output inventory/hash mismatch')
         return receipt
 

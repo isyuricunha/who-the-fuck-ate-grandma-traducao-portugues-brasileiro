@@ -1,0 +1,27 @@
+{
+  "427": {
+    "original_sha256": "00b0be5288bed98e149264c5c529f7d491251c7e70ca3ff853c8dee9228161b4",
+    "output_sha256": "ff01e08ab7804488e1b45126ab9b53cb35bc5e2a6daab5dc93a099a899fae108",
+    "original_characters": 101,
+    "characters": 125,
+    "added": "°ÀÁÂÃÇÉÊÍÓÔÕÚàáâãçíóôõú−",
+    "original_outlines_and_advances_preserved": true,
+    "missing_from_translation": [],
+    "full_height_accented_bodies": true,
+    "continuous_i_stem": true,
+    "unity_cached_metrics": {
+      "ascent": 20.0,
+      "descent": -4.0,
+      "line_spacing": 24.0
+    }
+  },
+  "428": {
+    "original_sha256": "7d4ee123537b55fecd1b55c6d931e16136fb4b8710a065cc092a57cc9da3df98",
+    "output_sha256": "63bb56438e7cae57f7fccc3ac66901a33a60f803c710012b0032ecd1b5739ac6",
+    "original_characters": 167,
+    "characters": 170,
+    "added": "°Õõ",
+    "original_outlines_and_advances_preserved": true,
+    "missing_from_translation": []
+  }
+}

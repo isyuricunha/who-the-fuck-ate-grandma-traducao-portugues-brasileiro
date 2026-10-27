@@ -21,7 +21,7 @@ Entre objetos improváveis e conversas absurdas, o mistério avança pelos cômo
 
 O projeto leva os textos de diálogo, as opções de conversa, as descrições de interação, os itens, as dicas e a interface ao português brasileiro, respeitando o contexto e o humor do original.
 
-O pacote substitui a opção de idioma **inglês** por **Português (Brasil)** e preserva o **francês**. Áudio, músicas e ilustrações são preservados; textos que façam parte de imagens ficam fora desse escopo.
+O pacote substitui a opção de idioma **inglês** por **Português (Brasil)** e preserva o **francês**. Inclui os botões do menu inicial em português e fontes com os acentos necessários. O menu e os acentos das legendas foram confirmados em jogo; essa validação pontual não cobre uma campanha completa. Áudio, músicas e ilustrações são preservados; demais textos incorporados a imagens ficam fora desse escopo.
 
 <a id="download"></a>
 
@@ -36,8 +36,8 @@ O pacote é criado automaticamente apenas a partir de uma tradução completa, v
 ## 🛠️ Instalação
 
 1. Feche o jogo. Na Steam, use **Propriedades → Arquivos instalados → Explorar** para abrir sua pasta.
-2. Faça uma cópia de segurança dos arquivos que serão substituídos em `Who the fuck ate grandma_Data`: `resources.assets`, `level2` e `level4` até `level13`. Guarde-a fora da pasta do jogo.
-3. Extraia o conteúdo de `PTBR.zip` na pasta onde está `Who the fuck ate grandma.exe`. Aceite a substituição do arquivo.
+2. Faça uma cópia de segurança de `GameAssembly.dll`, na raiz do jogo, e destes arquivos em `Who the fuck ate grandma_Data`: `resources.assets`, `sharedassets0.assets`, `level0`, `level2` e `level4` até `level13`. Guarde-a fora da pasta do jogo.
+3. Extraia o conteúdo de `PTBR.zip` na pasta onde está `Who the fuck ate grandma.exe`. Aceite a substituição dos arquivos.
 4. Abra as opções de idioma e escolha **Português (Brasil)**, que ocupa o lugar do inglês. O francês permanece como outra opção.
 5. Confira os menus e os primeiros diálogos. Consulte as notas da versão para saber quais verificações em jogo foram realizadas.
 
@@ -46,8 +46,11 @@ O arquivo deve ficar assim:
 ```text
 Pasta do jogo/
 ├── Who the fuck ate grandma.exe
+├── GameAssembly.dll
 └── Who the fuck ate grandma_Data/
     ├── resources.assets
+    ├── sharedassets0.assets
+    ├── level0
     ├── level2
     └── level4 … level13
 ```
@@ -58,7 +61,7 @@ Não crie uma pasta `PTBR` dentro da instalação. Para remover a tradução, fe
 
 O pacote segue a estrutura da instalação Windows analisada. Use a versão indicada nas notas do download: atualizações do jogo podem substituir os textos ou exigir um pacote novo. A estrutura dos arquivos foi verificada; isso, por si só, não comprova jogabilidade, acentuação ou encaixe visual das frases.
 
-Não há compatibilidade confirmada com modificações que também substituam `resources.assets`, nem com outras compilações ou plataformas.
+Não há compatibilidade confirmada com modificações que substituam os mesmos arquivos, nem com outras compilações ou plataformas. O ajuste visual do menu inclui uma alteração específica desta versão em `GameAssembly.dll`.
 
 <details>
 <summary><strong>A tradução não apareceu</strong></summary>

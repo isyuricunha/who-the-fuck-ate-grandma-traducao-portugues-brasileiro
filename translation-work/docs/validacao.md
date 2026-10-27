@@ -7,7 +7,7 @@
 - `resources.assets` original: 43.959.176 bytes; SHA-256 `17599bf6650a62f79a120424ef5c0933cfdf05107c3b32e6946dd007377347d1`.
 - 3.686 IDs únicos no SpeechManager; a revisão estrutural das cenas acrescentou 84 mensagens não vazias sem ID de localização. Uma ação com mensagem vazia não foi transformada em tarefa linguística.
 - Catálogo inicial de preparação: **3.770 unidades**, originalmente em oito lotes e ainda sem tradução naquele momento. Em 27/10/2026, a pedido do mantenedor, os mesmos registros foram reorganizados em **16 lotes (15 × 250 + 20)** para a tradução manual. A contagem e o progresso correntes estão no manifesto/status e em `translation-progress.json`.
-- Fontes: 17 arquivos nativos preservados em EN, com caminhos originais. A reconstrução sem alterações retorna os bytes de cada fonte. Uma versão completa do pacote precisa de 12 arquivos: recurso central e 11 cenas com registros de fala adicionados.
+- Fontes textuais: 17 arquivos nativos preservados em EN, com caminhos originais. A reconstrução sem alterações retorna os bytes de cada fonte. A camada textual precisa de 12 arquivos: recurso central e 11 cenas com registros de fala adicionados. A correção visual posterior amplia o pacote para 15 arquivos; consulte [correção visual](correcao-visual.md).
 - `scene-audit.json` guarda a varredura heurística inicial e seus candidatos; não deve ser usado como contagem final. A contagem e os vínculos finais vêm do parser de ActionSpeech.
 
 ## Política de idioma solicitada
@@ -60,8 +60,8 @@ O Markdown, a hierarquia, os textos alternativos, os links e os badges foram rev
 ## Limitações que permanecem
 
 - **Ubuntu 24.04 ARM64:** `doctor` executado com sucesso no Linux aarch64 real (Python 3.12.3), e `check`, `build` e `verify-output` também aprovados. Isso confirma os comandos executados, mas não equivale a teste de jogabilidade.
-- **Jogo:** nenhuma execução, instalação, validação visual de acentos, verificação de saves ou teste de jogabilidade foi realizado. O suporte a Unicode no arquivo não prova glifos no atlas.
-- **GitHub:** workflows preparados e cliente testado por mock; execução real remota e publicação não realizadas. A proteção de branch para exigir aceite de contribuição depende de configuração do mantenedor.
+- **Jogo:** menu e acentos das legendas confirmados em execução pelo mantenedor após a revisão v3. O teste da malha TMP também confirmou a mesma fonte e escala para os acentos. Campanha completa, saves e todas as telas permanecem sem validação. Veja [correção visual](correcao-visual.md).
+- **GitHub:** o workflow publica a partir de `PTBR/` após verificar o recibo e os hashes. A release v1.0.0 já existe; a correção visual será entregue pelo mesmo fluxo. A proteção de branch para exigir aceite de contribuição depende de configuração do mantenedor.
 - **Redistribuição:** `redistribution.authorized` foi ativado pelo mantenedor. O publisher verifica esse sinal, sem campo de evidência documental obrigatório. A ausência dessa checagem não comprova direitos de redistribuição dos recursos Unity proprietários, que também já constam em `EN/` no repositório público.
 - **Formato:** o adaptador é específico ao perfil analisado; novas cenas, layouts, mensagens dinâmicas sem vínculo ou compilação incompatível exigem revisão. Não há suporte declarado a outros mods/plataformas.
-- **Entrega Git:** tradução e build concluídos no clone de trabalho; sem commit, push ou Release efetuados.
+- **Entrega:** os 15 arquivos corrigidos integram `PTBR/`, idênticos ao pacote v3 confirmado pelo mantenedor. O workflow empacota essa pasta como `PTBR.zip`.

@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "engine": "Unity 6000.2.9f1 Windows x64",
+  "mode": "isolated -batchmode -nographics",
+  "rasterizer": "native TMPro.TMP_FontAsset.TryAddCharacters",
+  "source_font_path_id": 427,
+  "source_font_sha256": "ff01e08ab7804488e1b45126ab9b53cb35bc5e2a6daab5dc93a099a899fae108",
+  "font_asset_path_id": 458,
+  "atlas_texture_path_id": 201,
+  "atlas_size": [
+    2048,
+    1024
+  ],
+  "sampling_point_size": 68,
+  "padding": 27,
+  "glyph_render_mode": 4134,
+  "original_glyphs": 86,
+  "final_glyphs": 112,
+  "final_characters": 113,
+  "missing": [],
+  "original_glyph_records_preserved": true,
+  "original_atlas_left_half_preserved": true,
+  "body_threshold_tests": [
+    "a/\u00e1",
+    "a/\u00e3",
+    "i/\u00ed",
+    "o/\u00f3"
+  ],
+  "atlas_sha256": "74f6b7bef30a0d90d5e687d5a6dd9805c87c2f11cb59cab4629328762611b2de",
+  "original_atlas_sha256": "c65241b22be529709d3918c2b084de6a62be936a87f8e937011432ce3558c881",
+  "installation_written": false,
+  "full_gameplay_test": false
+}

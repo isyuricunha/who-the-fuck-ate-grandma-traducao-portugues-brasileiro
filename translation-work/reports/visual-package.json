@@ -1,0 +1,25 @@
+{
+  "file": "PTBR-menu-e-fontes.zip",
+  "bytes": 23093960,
+  "sha256": "3cf487eefd2dd16dc156208d1a70a4a99e4bbdd82e4493dcdaf952910a98a6e5",
+  "files": [
+    "GameAssembly.dll",
+    "Who the fuck ate grandma_Data/level0",
+    "Who the fuck ate grandma_Data/level10",
+    "Who the fuck ate grandma_Data/level11",
+    "Who the fuck ate grandma_Data/level12",
+    "Who the fuck ate grandma_Data/level13",
+    "Who the fuck ate grandma_Data/level2",
+    "Who the fuck ate grandma_Data/level4",
+    "Who the fuck ate grandma_Data/level5",
+    "Who the fuck ate grandma_Data/level6",
+    "Who the fuck ate grandma_Data/level7",
+    "Who the fuck ate grandma_Data/level8",
+    "Who the fuck ate grandma_Data/level9",
+    "Who the fuck ate grandma_Data/resources.assets",
+    "Who the fuck ate grandma_Data/sharedassets0.assets"
+  ],
+  "all_archived_bytes_match_verified_build": true,
+  "game_runtime_test": false,
+  "installation_written": false
+}

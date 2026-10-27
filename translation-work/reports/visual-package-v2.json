@@ -1,0 +1,13 @@
+{
+  "file": "PTBR-menu-e-fontes-v2.zip",
+  "size": 23093893,
+  "sha256": "05e7d8125dc9e4d7b8c170115966a035ced64bca7157a7c743a7bef7a884d550",
+  "changed_from_v1": [
+    "Who the fuck ate grandma_Data/resources.assets"
+  ],
+  "files": 15,
+  "crc_verified": true,
+  "sha256_verified": true,
+  "game_runtime_test": false,
+  "installation_written": false
+}

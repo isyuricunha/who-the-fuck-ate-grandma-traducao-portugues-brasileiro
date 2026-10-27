@@ -1,0 +1,44 @@
+{
+  "mode": "image_gen built-in tool",
+  "transparent_background": true,
+  "reference_objects": [
+    "Who the fuck ate grandma_Data/sharedassets0.assets#Texture2D:114",
+    "Who the fuck ate grandma_Data/sharedassets0.assets#Texture2D:116"
+  ],
+  "prompt_template": "Create a production game UI localization asset from the two attached button images. Replace French JOUER with EXACT Brazilian Portuguese label \"{LABEL}\". Preserve the original rounded chunky hand drawn uppercase white lettering, subtle pale blue bevel, dark slim soft shadow, slightly irregular organic contours. These are actual game assets, do not redesign them. Output a transparent sprite strip with EXACTLY TWO rows of the same label: upper row normal state, lower row hover state about 5 percent larger and slightly brighter. Center both rows on identical width transparent canvases. Overall canvas aspect ratio about 2.08:1 (two wide 4.17:1 button rows stacked vertically); crisp letter edges. Each row must contain ONLY \"{LABEL}\", fully visible with ample transparent margins, no frames, no panels, no other text, no opaque background. Preserve the exact Portuguese diacritics, particularly OPÇÕES if requested. Keep consistent baseline and style between the two states. This is a UI asset not a mockup.",
+  "assets": {
+    "jogar": {
+      "label": "JOGAR",
+      "generated_strip": "jogar-states.png",
+      "imported_states": [
+        "jogar-0.png",
+        "jogar-1.png"
+      ]
+    },
+    "carregar": {
+      "label": "CARREGAR",
+      "generated_strip": "carregar-states.png",
+      "imported_states": [
+        "carregar-0.png",
+        "carregar-1.png"
+      ]
+    },
+    "opcoes": {
+      "label": "OPÇÕES",
+      "generated_strip": "opcoes-states.png",
+      "imported_states": [
+        "opcoes-0.png",
+        "opcoes-1.png"
+      ]
+    },
+    "sair": {
+      "label": "SAIR",
+      "generated_strip": "sair-states.png",
+      "imported_states": [
+        "sair-0.png",
+        "sair-1.png"
+      ]
+    }
+  },
+  "integration": "Sprite rows trimmed to visible alpha bounds, centered on a 1417x340 canvas, hover 5 percent larger; lossless RGBA32 native textures. Final pixels verified after native extraction."
+}

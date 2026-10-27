@@ -1,0 +1,220 @@
+{
+  "files": {
+    "GameAssembly.dll": {
+      "kind": "binary",
+      "ranges": [
+        {
+          "after": "31c083fe020f94c0c1e00483c018488b143890",
+          "before": "85f6b818000000b9280000000f45c1488b1438",
+          "offset": 4995380
+        },
+        {
+          "after": "31d283fe020f94c2c1e20483c220488d8b90000000488b143a90",
+          "before": "85f6488d8b90000000b830000000ba200000000f45d0488b143a",
+          "offset": 4995423
+        }
+      ],
+      "source": "translation-work/visuals/original/GameAssembly.dll",
+      "source_sha256": "139c4cac0673215a3d9304c11e488b4915a573ad7a79269faa23f5543f381850"
+    },
+    "Who the fuck ate grandma_Data/level0": {
+      "additions": [
+        {
+          "id": 322,
+          "payload": "translation-work/visuals/objects/options-styler.bin",
+          "type_index": 52
+        }
+      ],
+      "kind": "unity",
+      "objects": [
+        {
+          "after_sha256": "f5c748977cf3bb0bf9f9aa0d7652167ef62683b3c5721ed115b1b47d7eea88c0",
+          "before_sha256": "b543043e98a15a8c8c2c92b997e263a0a2ce324478fa0428f25ad71d42827fc6",
+          "id": 49,
+          "payload": "translation-work/visuals/objects/menu-gameobject.bin",
+          "type": [
+            1,
+            -1
+          ]
+        }
+      ],
+      "source": "EN/Who the fuck ate grandma_Data/level0",
+      "source_sha256": "c5bb9d409aadd4b83fcde602c0d0c094807f02e76b3d1335358a07084bb28db5"
+    },
+    "Who the fuck ate grandma_Data/resources.assets": {
+      "additions": [],
+      "kind": "unity",
+      "objects": [
+        {
+          "after_sha256": "350cd0aff2d57bf9b1979aebfc160f85cdefa20908014b865e5bf7b68db0f015",
+          "before_sha256": "6523ec37c4ca482b9488b5ce7bc296e1e41f58722a52cb16105e7bf50bfe6cde",
+          "id": 427,
+          "payload": "translation-work/visuals/objects/font-427.bin",
+          "type": [
+            128,
+            -1
+          ]
+        },
+        {
+          "after_sha256": "7c2c4d87bfc823bb96fb5cf93c8694132728f2dc72b275eb2b8f0da180d69be3",
+          "before_sha256": "b3ea9cfd88de8b2852847ef183c1c7cb740b158e56e8e1168de1f2291b3f0bfb",
+          "id": 428,
+          "payload": "translation-work/visuals/objects/font-428.bin",
+          "type": [
+            128,
+            -1
+          ]
+        }
+      ],
+      "source": "EN/Who the fuck ate grandma_Data/resources.assets",
+      "source_sha256": "17599bf6650a62f79a120424ef5c0933cfdf05107c3b32e6946dd007377347d1"
+    },
+    "Who the fuck ate grandma_Data/sharedassets0.assets": {
+      "additions": [
+        {
+          "id": 459,
+          "payload": "translation-work/visuals/objects/options-0-True.bin",
+          "type_index": 2
+        },
+        {
+          "id": 460,
+          "payload": "translation-work/visuals/objects/options-0-False.bin",
+          "type_index": 2
+        },
+        {
+          "id": 461,
+          "payload": "translation-work/visuals/objects/options-1-True.bin",
+          "type_index": 2
+        },
+        {
+          "id": 462,
+          "payload": "translation-work/visuals/objects/options-1-False.bin",
+          "type_index": 2
+        }
+      ],
+      "kind": "unity",
+      "objects": [
+        {
+          "after_sha256": "7b7fd9e2eafe550f13a6f639d10f6946cf972ca4b9006175b35ecfac1a9dea3d",
+          "before_sha256": "8e7060184fd1ed3027d0164eb91bb0be9cc1576970e4b9ae49ce0eae1c5ab0df",
+          "id": 458,
+          "payload": "translation-work/visuals/objects/tmp-font-458.bin",
+          "type": [
+            114,
+            0
+          ]
+        },
+        {
+          "after_sha256": "3e13692a5839cb53b6124683f7aa5e4cc1923e154630e30116c0a0c394046344",
+          "before_sha256": "bf036ef609836ab8fe3e8bd650a8f3af5858f371dd7e50936958a4481ff104aa",
+          "id": 201,
+          "payload": "translation-work/visuals/objects/tmp-atlas-201.bin",
+          "type": [
+            28,
+            -1
+          ]
+        },
+        {
+          "after_sha256": "4c9c1ea351a6266b90fcce0b0776ca199ccdbb9b72a74d8811e3322b240a2fb6",
+          "before_sha256": "eb4815b5ded99934d912ae1021e35f40a6b5099e0bdc74c4efd55490f76ee5ea",
+          "id": 2,
+          "payload": "translation-work/visuals/objects/tmp-material-2.bin",
+          "type": [
+            21,
+            -1
+          ]
+        },
+        {
+          "after_sha256": "f51be261eb61eba1da1fb2f28a1d13c6c44c4de7cf0edf8c5fbbce837717c27f",
+          "before_sha256": "3742a4cd4776ec8040bbc21d24fc4ddf865742e7b466b39eaa56111d7e6c2e9b",
+          "id": 189,
+          "payload": "translation-work/visuals/objects/jogar-0.bin",
+          "type": [
+            28,
+            -1
+          ]
+        },
+        {
+          "after_sha256": "e35025d33bcc0d233abab35b4a6b4c263071b0f87744342fc3e4948f7c0a19f1",
+          "before_sha256": "944c22e08a7ec3022b08016999c73edbc25167bf41ec8cd97e9ee7b61937086c",
+          "id": 151,
+          "payload": "translation-work/visuals/objects/jogar-1.bin",
+          "type": [
+            28,
+            -1
+          ]
+        },
+        {
+          "after_sha256": "417cd504378f8dd11858d59f1583296e12cbfdae15bd9cf84abfd6045c24ddeb",
+          "before_sha256": "51c1223ad5aaba889c561fd58d9f075414435548284e9141adb35eceadce3aac",
+          "id": 93,
+          "payload": "translation-work/visuals/objects/carregar-0.bin",
+          "type": [
+            28,
+            -1
+          ]
+        },
+        {
+          "after_sha256": "46a22d8da1392a259e50ec91ca2855a5348e0a981e91498f8fea3f7acc1bf8c7",
+          "before_sha256": "5c371c0aee5fc8f58a7aa90e1a94bc036b07178c587c5bae7d5fe20760add6b4",
+          "id": 179,
+          "payload": "translation-work/visuals/objects/carregar-1.bin",
+          "type": [
+            28,
+            -1
+          ]
+        },
+        {
+          "after_sha256": "22e42caf048a4327e408db4d93228cd8fc074fd1ab04075a17c4ab99939ae7d3",
+          "before_sha256": "518e1f0bdade3a6968e60e45f7a14991893e6be39a3786e649b7da5f08b076f6",
+          "id": 134,
+          "payload": "translation-work/visuals/objects/sair-0.bin",
+          "type": [
+            28,
+            -1
+          ]
+        },
+        {
+          "after_sha256": "1c19eaa0eb7cd5dec74ad03eaf9e717a4064b39634cf5045455c00fce3f2b868",
+          "before_sha256": "99a58e8a466c39fb6c1adc7a16e8c343686debd35faa9894fb4f1e8c6a203c76",
+          "id": 137,
+          "payload": "translation-work/visuals/objects/sair-1.bin",
+          "type": [
+            28,
+            -1
+          ]
+        }
+      ],
+      "source": "translation-work/visuals/original/sharedassets0.assets",
+      "source_sha256": "88bfe5578c8375c74d8b4c9d74dc31d2e4663e7bd5a1a3b0963966899a8aae34"
+    }
+  },
+  "inputs": {
+    "EN/Who the fuck ate grandma_Data/level0": "c5bb9d409aadd4b83fcde602c0d0c094807f02e76b3d1335358a07084bb28db5",
+    "EN/Who the fuck ate grandma_Data/resources.assets": "17599bf6650a62f79a120424ef5c0933cfdf05107c3b32e6946dd007377347d1",
+    "translation-work/visuals/objects/carregar-0.bin": "417cd504378f8dd11858d59f1583296e12cbfdae15bd9cf84abfd6045c24ddeb",
+    "translation-work/visuals/objects/carregar-1.bin": "46a22d8da1392a259e50ec91ca2855a5348e0a981e91498f8fea3f7acc1bf8c7",
+    "translation-work/visuals/objects/font-427.bin": "350cd0aff2d57bf9b1979aebfc160f85cdefa20908014b865e5bf7b68db0f015",
+    "translation-work/visuals/objects/font-428.bin": "7c2c4d87bfc823bb96fb5cf93c8694132728f2dc72b275eb2b8f0da180d69be3",
+    "translation-work/visuals/objects/jogar-0.bin": "f51be261eb61eba1da1fb2f28a1d13c6c44c4de7cf0edf8c5fbbce837717c27f",
+    "translation-work/visuals/objects/jogar-1.bin": "e35025d33bcc0d233abab35b4a6b4c263071b0f87744342fc3e4948f7c0a19f1",
+    "translation-work/visuals/objects/menu-gameobject.bin": "f5c748977cf3bb0bf9f9aa0d7652167ef62683b3c5721ed115b1b47d7eea88c0",
+    "translation-work/visuals/objects/options-0-False.bin": "d6e13bc9a4cc24a8b85f2dc39b0b29a4819ffdf5934a71e81a51097506a80db1",
+    "translation-work/visuals/objects/options-0-True.bin": "f7a718770ab2250050a09fe8c0690d4a9ef352cc07c6a404be1ed9386b33c4a1",
+    "translation-work/visuals/objects/options-1-False.bin": "a862bd4982234328fea6d83a807cef9f7ce91de8a910cfa9466893d510940498",
+    "translation-work/visuals/objects/options-1-True.bin": "c621f4da966a8d25793babc85bf46f7cbe5268734706c0bdee4a4615de51ad6a",
+    "translation-work/visuals/objects/options-styler.bin": "bf23e2d126c23891c5e492b7d8cabd6f9f62ac34bc95c1f867543c405788949e",
+    "translation-work/visuals/objects/sair-0.bin": "22e42caf048a4327e408db4d93228cd8fc074fd1ab04075a17c4ab99939ae7d3",
+    "translation-work/visuals/objects/sair-1.bin": "1c19eaa0eb7cd5dec74ad03eaf9e717a4064b39634cf5045455c00fce3f2b868",
+    "translation-work/visuals/objects/tmp-atlas-201.bin": "3e13692a5839cb53b6124683f7aa5e4cc1923e154630e30116c0a0c394046344",
+    "translation-work/visuals/objects/tmp-font-458.bin": "7b7fd9e2eafe550f13a6f639d10f6946cf972ca4b9006175b35ecfac1a9dea3d",
+    "translation-work/visuals/objects/tmp-material-2.bin": "4c9c1ea351a6266b90fcce0b0776ca199ccdbb9b72a74d8811e3322b240a2fb6",
+    "translation-work/visuals/original/GameAssembly.dll": "139c4cac0673215a3d9304c11e488b4915a573ad7a79269faa23f5543f381850",
+    "translation-work/visuals/original/sharedassets0.assets": "88bfe5578c8375c74d8b4c9d74dc31d2e4663e7bd5a1a3b0963966899a8aae34",
+    "translation-work/visuals/tmp/atlas-alpha8.bin": "74f6b7bef30a0d90d5e687d5a6dd9805c87c2f11cb59cab4629328762611b2de",
+    "translation-work/visuals/tmp/bake.json": "2f9f51de9a744d73d34f23cac780da3ac28e954031c2d5709c5a8ebda62ac262",
+    "translation-work/visuals/tmp/original-alpha8.bin": "c65241b22be529709d3918c2b084de6a62be936a87f8e937011432ce3558c881",
+    "translation-work/visuals/tmp/provenance.json": "74e5b4cb1d1b33b940b91caac3392d8af83a1c7c6e62ea6067d1e732720cd85a"
+  },
+  "schema": 1
+}

@@ -3,6 +3,8 @@
   "game_tested": false,
   "generation": "9e048d3adc347d303b1e3753a481da8c3863aac987771f5689be93f0d0665df8",
   "output": {
+    "GameAssembly.dll": "f08d5b25500380a263e4ec194f3ece1dec3d816fb2d55534c526fc9ed32bb2a9",
+    "Who the fuck ate grandma_Data/level0": "6fd348033be54c76cc4b67e0281b7a2a748eae7a878d0c930292d6b3af7aa38b",
     "Who the fuck ate grandma_Data/level10": "aa2b7ebe08780a2f2e87d50260891cfe2119f92fdd7b2320a50f6afb5ac73b8a",
     "Who the fuck ate grandma_Data/level11": "df3a0eda2b61cdb9375b4bc855def35b211b5dafa0bb2c364f4d2391433ed8a1",
     "Who the fuck ate grandma_Data/level12": "47ae5e6b681e4511c4e422044cefb1ca4f38cec519b261d6693455f7b0927170",
@@ -14,7 +16,8 @@
     "Who the fuck ate grandma_Data/level7": "c368dd6b51afccc412c285c24a7835614f52f29ee20713c1c88fa75d11739463",
     "Who the fuck ate grandma_Data/level8": "7cac3069f35e0aa0304eacf39a153fe1cb03c25ab01022f4e8b87224d2e23863",
     "Who the fuck ate grandma_Data/level9": "8607bf7ba4955a957f487a32d3cb8828769ddb876ebcf6b0680f3ab8cccbad71",
-    "Who the fuck ate grandma_Data/resources.assets": "f3ee4e7a9d121087fa933bf29921ac9f24b877bf31cea51fc952613939e29818"
+    "Who the fuck ate grandma_Data/resources.assets": "64dd07f78acd1c714fca2c78f96e8645f902c28f58f9a82e17ecf9d950d936db",
+    "Who the fuck ate grandma_Data/sharedassets0.assets": "fd81b1d15fb312e08dbe927eaa3c4dac99fa6dd11d7422ba5625454b059ddff2"
   },
   "preserved_french_slot": 2,
   "record_count": 3770,
@@ -23,6 +26,6 @@
   "slot": 1,
   "source_sha256": "c97035fe592f5cef08d234ea16e5f2354321c9c02fb83441174309bc0156449f",
   "target_language": "Português (Brasil)",
-  "toolchain_sha256": "78543a23b8d880aa8a7555f1e371c518f61a67cfedf716b8fa7b5f4e7be318ad",
+  "toolchain_sha256": "bdafa06a68b1e5a5782373086a53abc1de40e3972a31cea1e9b92794acbbcfc0",
   "translation_fingerprint": "d7207cbbd9d9e6b674d11c4d78ca13c54bc34e1039860387a77599435820090a"
 }

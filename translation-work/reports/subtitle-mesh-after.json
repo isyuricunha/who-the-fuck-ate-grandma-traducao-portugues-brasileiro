@@ -1,0 +1,374 @@
+{
+  "stage": "result",
+  "phrase": "familia família irmao irmão vovo vovó difícil À Á É Ç Õ",
+  "instances": [
+    {
+      "name": "TextHint",
+      "font": "lucasarts-scumm-solid"
+    },
+    {
+      "name": "txtOption4",
+      "font": "lucasarts-scumm-solid"
+    },
+    {
+      "name": "txtOption3",
+      "font": "lucasarts-scumm-solid"
+    },
+    {
+      "name": "txtOption2",
+      "font": "lucasarts-scumm-solid"
+    },
+    {
+      "name": "txtOption1",
+      "font": "lucasarts-scumm-solid"
+    },
+    {
+      "name": "TextHint",
+      "font": "lucasarts-scumm-solid"
+    },
+    {
+      "name": "CanvasHotspoot2",
+      "font": "lucasarts-scumm-solid"
+    },
+    {
+      "name": "CanvaBen2",
+      "font": "lucasarts-scumm-solid"
+    },
+    {
+      "name": "Texte",
+      "font": "lucasarts-scumm-solid"
+    }
+  ],
+  "characters": [
+    {
+      "character": "f",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "a",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "m",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "i",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "l",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "i",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "a",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": " ",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "f",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "a",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "m",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "í",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "l",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "i",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "a",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": " ",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "i",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "r",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "m",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "a",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "o",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": " ",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "i",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "r",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "m",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "ã",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "o",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": " ",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "v",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "o",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "v",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "o",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": " ",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "v",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "o",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "v",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "ó",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": " ",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "d",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "i",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "f",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "í",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "c",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "i",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "l",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": " ",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "À",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": " ",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "Á",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": " ",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "É",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": " ",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "Ç",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": " ",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    },
+    {
+      "character": "Õ",
+      "font": "lucasarts-scumm-solid",
+      "pointSize": 36,
+      "scale": 0.529411792755127
+    }
+  ]
+}

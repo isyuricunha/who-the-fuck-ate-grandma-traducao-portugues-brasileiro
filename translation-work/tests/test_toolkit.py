@@ -20,7 +20,7 @@ from consent import ATTESTATION, validate
 
 def seal(root):
     names = ['native.py', 'sources.py', 'storage.py', 'toolkit.py', 'fixtures.py', 'release.py',
-             'consent.py', 'engine-shapes.json', 'project.json']
+             'consent.py', 'visuals.py', 'engine-shapes.json', 'project.json']
     files = {WORK + n: sha(canonical((root / WORK / n).read_bytes())) for n in names}
     toolchain = encoded({'schema': 1, 'files': files})
     (root / WORK / 'toolchain.json').write_bytes(toolchain)
@@ -36,7 +36,7 @@ class Sandbox(unittest.TestCase):
         self.root = Path(self.temp.name)
         w = self.root / WORK; w.mkdir()
         for name in ['native.py', 'sources.py', 'storage.py', 'toolkit.py', 'fixtures.py', 'release.py',
-                     'consent.py', 'engine-shapes.json', 'project.json']:
+                     'consent.py', 'visuals.py', 'engine-shapes.json', 'project.json']:
             shutil.copyfile(ROOT / WORK / name, w / name)
         self.shape = load(w / 'engine-shapes.json')
         self.shape.pop('scene_resources', None)

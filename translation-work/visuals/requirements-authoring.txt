@@ -1,0 +1,5 @@
+fonttools==4.67.0
+UnityPy==1.25.4
+Pillow==13.0.0
+capstone==5.0.9
+unicorn==2.1.4

@@ -1,0 +1,14 @@
+{
+  "file": "PTBR-menu-e-fontes-v3.zip",
+  "size": 23188718,
+  "sha256": "787348aaa2506f9b93010928bb3af65fb88f88576ccac934ec2472c3f64b5bc3",
+  "changed_from_v2": [
+    "Who the fuck ate grandma_Data/sharedassets0.assets"
+  ],
+  "files": 15,
+  "crc_verified": true,
+  "sha256_verified": true,
+  "native_tmp_mesh_test": "passed",
+  "full_gameplay_test": false,
+  "installation_written": false
+}

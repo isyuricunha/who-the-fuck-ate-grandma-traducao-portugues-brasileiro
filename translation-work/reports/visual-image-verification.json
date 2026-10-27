@@ -1,0 +1,58 @@
+[
+  {
+    "button": "jogar",
+    "path_id": 189,
+    "pixels_match_reviewed_art": true,
+    "rgba_sha256": "ac1228339b8d51453297fa800c812d4f50f78a827315a453ea135b741825679e",
+    "state": 0
+  },
+  {
+    "button": "jogar",
+    "path_id": 151,
+    "pixels_match_reviewed_art": true,
+    "rgba_sha256": "8d4ed370461f29665d2dee70019ef561fb1d70e8f1b101928ccf10f45d8d522a",
+    "state": 1
+  },
+  {
+    "button": "carregar",
+    "path_id": 93,
+    "pixels_match_reviewed_art": true,
+    "rgba_sha256": "14b079f1ca6a937915bf8b35af9a1ffd1d77d9538b1eecf4ec18430b747174bf",
+    "state": 0
+  },
+  {
+    "button": "carregar",
+    "path_id": 179,
+    "pixels_match_reviewed_art": true,
+    "rgba_sha256": "c3b53cf1e51ae3e6640fcd9204637e9efa18bafa624b70273e1b8fb51195190b",
+    "state": 1
+  },
+  {
+    "button": "opcoes",
+    "path_id": 459,
+    "pixels_match_reviewed_art": true,
+    "rgba_sha256": "c69f60fa142365c2e6821aba1c9b96f56ceed96dbf1f3c81d1d88ebc2b8a15ce",
+    "state": 0
+  },
+  {
+    "button": "opcoes",
+    "path_id": 461,
+    "pixels_match_reviewed_art": true,
+    "rgba_sha256": "dcd5912caf9a79626da7bd9eded09a919e8d9a54781a238ddf0d0941703bf252",
+    "state": 1
+  },
+  {
+    "button": "sair",
+    "path_id": 134,
+    "pixels_match_reviewed_art": true,
+    "rgba_sha256": "eecb6adf1a1bc96ac725a866abbd15ed04a7bc47ca0b6e9be99c318dcfc82c00",
+    "state": 0
+  },
+  {
+    "button": "sair",
+    "path_id": 137,
+    "pixels_match_reviewed_art": true,
+    "rgba_sha256": "47f2832490f889a54afda8474e76a81183e086303887eb661ecd42ae4ed6ee5e",
+    "state": 1
+  }
+]

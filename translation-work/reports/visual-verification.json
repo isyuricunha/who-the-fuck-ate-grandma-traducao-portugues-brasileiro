@@ -1,0 +1,59 @@
+{
+  "files": 15,
+  "fonts": {
+    "427": {
+      "cached_metrics": {
+        "ascent": 20.0,
+        "descent": -4.0,
+        "line_spacing": 24.0
+      },
+      "embedded_sha256": "ff01e08ab7804488e1b45126ab9b53cb35bc5e2a6daab5dc93a099a899fae108",
+      "missing": [],
+      "unicode_characters": 125,
+      "unrelated_font_object_fields_preserved": true
+    },
+    "428": {
+      "cached_metrics": null,
+      "embedded_sha256": "63bb56438e7cae57f7fccc3ac66901a33a60f803c710012b0032ecd1b5739ac6",
+      "missing": [],
+      "unicode_characters": 170,
+      "unrelated_font_object_fields_preserved": true
+    }
+  },
+  "french_menu_images_preserved": true,
+  "game_runtime_test": false,
+  "installation_written": false,
+  "native_objects": {
+    "Who the fuck ate grandma_Data/level0": {
+      "built": 322,
+      "original": 321,
+      "unchanged": 320
+    },
+    "Who the fuck ate grandma_Data/resources.assets": {
+      "built": 3434,
+      "original": 3434,
+      "unchanged": 3429
+    },
+    "Who the fuck ate grandma_Data/sharedassets0.assets": {
+      "built": 462,
+      "original": 458,
+      "unchanged": 449
+    }
+  },
+  "options_language_binding_verified": true,
+  "records": 3770,
+  "selector_changed_bytes": 44,
+  "subtitle_tmp_atlas": {
+    "characters": 113,
+    "french_fallback_preserved": true,
+    "glyphs": 112,
+    "missing": [],
+    "original_atlas_pixels_preserved": true,
+    "original_glyphs_preserved": true,
+    "path_id": 458,
+    "size": [
+      2048,
+      1024
+    ]
+  }
+}

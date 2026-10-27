@@ -1,0 +1,83 @@
+{
+  "changes": [
+    {
+      "address": "0x1804c4734",
+      "emulated_cases": [
+        {
+          "language": -1,
+          "uses_french": false
+        },
+        {
+          "language": 0,
+          "uses_french": false
+        },
+        {
+          "language": 1,
+          "uses_french": false
+        },
+        {
+          "language": 2,
+          "uses_french": true
+        },
+        {
+          "language": 3,
+          "uses_french": false
+        },
+        {
+          "language": 99,
+          "uses_french": false
+        }
+      ],
+      "instructions": [
+        "xor eax, eax",
+        "cmp esi, 2",
+        "sete al",
+        "shl eax, 4",
+        "add eax, 0x18",
+        "mov rdx, qword ptr [rax + rdi]",
+        "nop "
+      ]
+    },
+    {
+      "address": "0x1804c475f",
+      "emulated_cases": [
+        {
+          "language": -1,
+          "uses_french": false
+        },
+        {
+          "language": 0,
+          "uses_french": false
+        },
+        {
+          "language": 1,
+          "uses_french": false
+        },
+        {
+          "language": 2,
+          "uses_french": true
+        },
+        {
+          "language": 3,
+          "uses_french": false
+        },
+        {
+          "language": 99,
+          "uses_french": false
+        }
+      ],
+      "instructions": [
+        "xor edx, edx",
+        "cmp esi, 2",
+        "sete dl",
+        "shl edx, 4",
+        "add edx, 0x20",
+        "lea rcx, [rbx + 0x90]",
+        "mov rdx, qword ptr [rdx + rdi]",
+        "nop "
+      ]
+    }
+  ],
+  "method": "ACLanguageButtonStyler.UpdateButton",
+  "source_sha256": "139c4cac0673215a3d9304c11e488b4915a573ad7a79269faa23f5543f381850"
+}

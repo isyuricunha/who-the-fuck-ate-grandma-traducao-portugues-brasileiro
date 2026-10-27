@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "engine": "Unity 6000.2.9f1",
+  "mode": "isolated -batchmode -nographics",
+  "component": "TextMeshProUGUI",
+  "method": "ForceMeshUpdate(true,true)",
+  "phrase": "familia família irmao irmão vovo vovó difícil À Á É Ç Õ",
+  "before_missing_accents_font": "LiberationSans SDF",
+  "before_missing_accents_scale": 0.41860464215278625,
+  "after_all_characters_font": "lucasarts-scumm-solid",
+  "after_all_characters_scale": 0.529411792755127,
+  "atlas_bake_reproduced_identically": true,
+  "full_gameplay_test": false,
+  "installation_written": false,
+  "tests": {
+    "run": 62,
+    "passed": 61,
+    "skipped": 1,
+    "excluded": "test_500_tiny_updates_101_batches_storage_bounds"
+  },
+  "maintainer_visual_confirmation": {
+    "date": "2026-10-27",
+    "confirmed": true,
+    "scope": [
+      "menu inicial em português",
+      "acentos das legendas com tamanho e fonte corretos"
+    ],
+    "statement": "Agora deu certo.",
+    "tested_package_sha256": "787348aaa2506f9b93010928bb3af65fb88f88576ccac934ec2472c3f64b5bc3"
+  }
+}

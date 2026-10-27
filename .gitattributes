@@ -8,3 +8,8 @@ LICENSE text eol=lf
 EN/** -text
 PTBR/** -text
 translation-work/tests/fixtures/** -text
+translation-work/visuals/**/*.assets -text
+translation-work/visuals/**/*.dll -text
+translation-work/visuals/**/*.bin -text
+translation-work/visuals/**/*.otf -text
+translation-work/visuals/**/*.png -text

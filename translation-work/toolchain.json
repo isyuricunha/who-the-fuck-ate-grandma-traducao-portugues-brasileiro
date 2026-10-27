@@ -1,14 +1,21 @@
 {
   "files": {
+    "translation-work/author_fonts.py": "829ff44709506c6611c71529cf3ac70bd5c72e27113c0952d6b31e15cd0afe27",
+    "translation-work/author_tmp_atlas.py": "263d22fa43ffbbee066d0b670efd14283092b6b177e3fffb3f173b49172bf3f9",
+    "translation-work/author_visuals.py": "3f0a0ad9667d392d69831c496bb4cf364a46c5cdba60142f227cd857a7731c5d",
+    "translation-work/bake_tmp_engine.js": "d7837b488f0ee70563ab1a1d39e79d1e135f5b43b278791e492c1820bb6a6d27",
     "translation-work/consent.py": "3bf2f8016d168d9de9cef042368b9476b13d9b9748b9f525b8cdaf4bbfedb106",
     "translation-work/engine-shapes.json": "20b228fabd47587a8a17d969d8b3169127d3d6de584c7761ae2fe2f0413b1c16",
     "translation-work/fixtures.py": "af038146799ece1fd6f727b2cd25c066bea115fa7da756ad4f75b8f49cd478ec",
     "translation-work/native.py": "7b85250eae7a75f7e2b41f0711a45cd95f0c7b11c9f36fd295b147184af126d4",
     "translation-work/project.json": "4c1e17436189d22a0309f1f726f9f46d110bbfe7aa9c3db7afbd020d8cffd61d",
-    "translation-work/release.py": "b0357f03dfcf4796106ad66206df1f6c8467587a8c257231f202f122f25dfeec",
+    "translation-work/release.py": "71633b389859b23a8e9f9434d05b184f8facc6b109a4716e8f4fa0e81a5b2c53",
     "translation-work/sources.py": "56683c1fd24b9388ca3d4693dc19a1cbc7fcf566a29103bc57a881eaf3244a4d",
     "translation-work/storage.py": "971eb90bd4f3b34793d65fcfe9f47ba097c7ade4e502a8485fb541cb13c77da1",
-    "translation-work/toolkit.py": "8221949ba67922c77dd8de159192ac09c9b87f917c67fe192a2e8378fd0f3050"
+    "translation-work/tmp_atlas.py": "bc454d5ef4002fdc81a62e729d7ea2a5fba776ad10580e3ee4d6ffe1e2abcc2d",
+    "translation-work/toolkit.py": "d1d43ae1023733ab6dae5b0a5fc1293c959a7e6806b15502e422ecd0fe471f48",
+    "translation-work/visuals.py": "85331bf154255054aad2f16976d8df46f1f3ecf16758a9bcd70d1a3def1162a2",
+    "translation-work/visuals/profile.json": "22d80ac1bb77e3f0b2272a34b2670a2d7fb2a8043d43da6cb25bb957370fe942"
   },
   "schema": 1
 }

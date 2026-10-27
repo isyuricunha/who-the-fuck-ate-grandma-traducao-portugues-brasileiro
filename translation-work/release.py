@@ -114,10 +114,11 @@ def notes(repo, tag, receipt, change_text, previous_tag=None):
     url = 'https://github.com/' + repo
     body = change_text + '\n## Download e instalação\n\n'
     body += f'Baixe **[PTBR.zip]({url}/releases/download/{tag}/PTBR.zip)**. '
-    body += 'Feche o jogo, faça backup de `resources.assets`, `level2` e `level4` até `level13` em `Who the fuck ate grandma_Data` '
-    body += 'e extraia o ZIP na pasta do executável, aceitando a substituição. '
+    body += 'Feche o jogo e faça backup dos arquivos que serão substituídos, listados abaixo. '
+    body += 'Extraia o ZIP na pasta do executável, aceitando a substituição. '
     body += 'Selecione **Português (Brasil)** nas opções de idioma. '
     body += f'Consulte o [guia de instalação]({url}#instalacao).\n\n'
+    body += 'Arquivos do pacote:\n\n' + ''.join(f'- `{path}`\n' for path in sorted(receipt['output'])) + '\n'
     body += 'O pacote substitui a opção de inglês pelo PT-BR e preserva o francês. '
     body += 'A validação do pacote não equivale a um teste de jogabilidade ou de fontes.\n\n'
     if previous_tag:
