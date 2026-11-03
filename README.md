@@ -19,6 +19,9 @@ Entre objetos improváveis e conversas absurdas, o mistério avança pelos cômo
 
 ## 🇧🇷 Sobre a tradução
 
+> Essa tradução foi oficialmente introduzida no jogo.
+> https://steamcommunity.com/app/1756100/eventcomments/574930972896960024?snr=2_9_100015_
+
 O projeto leva os textos de diálogo, as opções de conversa, as descrições de interação, os itens, as dicas e a interface ao português brasileiro, respeitando o contexto e o humor do original.
 
 O pacote substitui a opção de idioma **inglês** por **Português (Brasil)** e preserva o **francês**. Inclui os botões do menu inicial em português e fontes com os acentos necessários. O menu e os acentos das legendas foram confirmados em jogo; essa validação pontual não cobre uma campanha completa. Áudio, músicas e ilustrações são preservados; demais textos incorporados a imagens ficam fora desse escopo.
